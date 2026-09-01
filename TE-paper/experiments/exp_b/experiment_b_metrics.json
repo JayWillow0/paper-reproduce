@@ -1,0 +1,64 @@
+{
+  "protocol_version": 2,
+  "protocol": "one fixed 80/20 sample-level model evaluated on random validation slices and battery holdouts",
+  "seed": 42,
+  "epochs": 200,
+  "batch_size": 128,
+  "lr": 0.0001,
+  "delta_SP": 0.1,
+  "dataset_length": 100,
+  "dsc_num": 5,
+  "torch": "2.8.0",
+  "numpy": "2.0.2",
+  "data_gen_seconds": 2.1,
+  "train_samples_per_battery": {
+    "NCA": 4461,
+    "NCM83116": 4101,
+    "NCM811_100": 3791,
+    "NCM811_60": 3111,
+    "NCM811_40": 2811,
+    "NCM811_20": 1811,
+    "NCM811_0": 1621,
+    "NCM811_FEC": 3461,
+    "NCM811_PS": 3551,
+    "NCM811_HC": 3001,
+    "NCM622": 3551
+  },
+  "n_train_battery_samples_total": 35271,
+  "train_size": 28216,
+  "sample_val_size": 7055,
+  "train_seconds": 605.9,
+  "sample_val_mse_final": 0.041891570829124335,
+  "sample_val_mse_best": 0.041891570829124335,
+  "sample_val_mse_best_epoch": 200,
+  "holdout_test_mse_per_battery": {
+    "NCM811_80": {
+      "mse": 0.6876197457313538,
+      "n_samples": 3201,
+      "paper_table_S8": 0.47,
+      "temp_range": [
+        118.0,
+        438.0
+      ]
+    },
+    "NCM811_VC": {
+      "mse": 0.7778177857398987,
+      "n_samples": 3501,
+      "paper_table_S8": 0.46,
+      "temp_range": [
+        117.0,
+        467.0
+      ]
+    },
+    "NCM523": {
+      "mse": 1.9694194793701172,
+      "n_samples": 3661,
+      "paper_table_S8": 0.18,
+      "temp_range": [
+        132.0,
+        498.0
+      ]
+    }
+  },
+  "total_seconds": 609.1
+}

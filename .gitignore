@@ -1,0 +1,34 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Generated caches and local model weights
+**/cache/
+**/*.npz
+**/*.pt
+**/*.pth
+**/*.ckpt
+
+# Upstream repositories and raw data are fetched locally
+**/repo/
+**/data/
+**/data
+
+# Temporary files
+**/tmp/
+**/*.tmp
+**/*.bak
+
+.env/

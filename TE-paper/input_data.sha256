@@ -1,0 +1,32 @@
+# v2 固定输入清单
+# 官方仓库 commit 21b2209508f23d7739e499fd4a90825ce4b3d33f
+# 训练与测试目录中的同名数据文件逐字节一致，因此每个唯一文件只登记一次。
+# 对下列数据行计算 SHA-256 的结果为 e596538b502aa13dcfe109caf1c9b2375e0a5d60b87de9d3284f7187d9c81e08，注释行不参与计算。
+97acfcbb555c142f5660e9d64b3f9ed6a472ca74a88e855a6f807a6770ad58a0  repo/TE-method-2024/1-model training/Data/ARC_NCA.txt
+c36d729c1326bac50940d12c703fe3bcee54c22afd161e24e94b9c6fd327bb79  repo/TE-method-2024/1-model training/Data/ARC_NCM523.txt
+2a44cc02acb505593b52f8a98d39d50ea9729da0b424b938c98a948866aaa30e  repo/TE-method-2024/1-model training/Data/ARC_NCM622.txt
+ca801380963ad3a2448d2815255eef0841a2e68f5e6d44f6ae385e767709e506  repo/TE-method-2024/1-model training/Data/ARC_NCM811_0.txt
+bdb48d2219caa95dfcb6bba975c55c2215085c20df44cd29272683060accddef  repo/TE-method-2024/1-model training/Data/ARC_NCM811_100.txt
+a033698586a6c7cc2e20c0147a2d35162322ce003cf6b2437af1d368df4544df  repo/TE-method-2024/1-model training/Data/ARC_NCM811_20.txt
+df131af15900029f5e5233b2da7e92e190eac57c1dc1cf22506ee287094fd083  repo/TE-method-2024/1-model training/Data/ARC_NCM811_40.txt
+eee933d95a0ca279636ed1aefb5d503d5b6be2127077cc243effa84257ee14eb  repo/TE-method-2024/1-model training/Data/ARC_NCM811_60.txt
+b33b3a5e822e434b5091a72f275e024927b0262953eb905002fd41be846e9a07  repo/TE-method-2024/1-model training/Data/ARC_NCM811_80.txt
+0464507d74dacf8dc5119c1dbc09ccc3127354671dd0604863237637af4ce956  repo/TE-method-2024/1-model training/Data/ARC_NCM811_FEC.txt
+8b903e8460f8bbbfb58efd0b626b50da05332415597448a82723e97d7b0cfbd7  repo/TE-method-2024/1-model training/Data/ARC_NCM811_HC.txt
+8b96d570622a5c2d8fa40e76ee5a73479e4863cd178eb446fbcd668c8074d7a3  repo/TE-method-2024/1-model training/Data/ARC_NCM811_PS.txt
+9d659ce1b604361574bfc46f4423bfb7d6d3cc4cf85f137033119110f730a95a  repo/TE-method-2024/1-model training/Data/ARC_NCM811_VC.txt
+2014cd231ca75fc8eb94c3ef9f11c3acf7b1e8b973e92c252f9614d63e985154  repo/TE-method-2024/1-model training/Data/ARC_NCM83116.txt
+a8abdee1cbe5e6a3f2d348eaa9a1d674317fd8dd9d2d2a270e04de4fbc16f2e1  repo/TE-method-2024/1-model training/Data/DSC_NCA_5.txt
+36caf0da7c00420b67f6564992fa159b5257918d863c57ccb49ddbc218257954  repo/TE-method-2024/1-model training/Data/DSC_NCM523_5.txt
+999f0e612c282669f46fb7ca10559e90f2ae9e7ba0e9e7643e86a1c320a66717  repo/TE-method-2024/1-model training/Data/DSC_NCM622_5.txt
+88e5933dc3ba3e51bdc2e6b2881be311cd4a7943328350c2432a1b3cb9cb4fe2  repo/TE-method-2024/1-model training/Data/DSC_NCM811_0_5.txt
+21026dc9fa515512252637e0f148d51850cfc5153c135a468ce9bc1d4bea0f44  repo/TE-method-2024/1-model training/Data/DSC_NCM811_100_5.txt
+aa34e9eeedcf67c4963d4f22bc57c7b2bd7e98e725b9850dacaba5881561fbab  repo/TE-method-2024/1-model training/Data/DSC_NCM811_20_5.txt
+9da9b4beaa4ff15bed0761a139963b2130c9f28526e32bb5e27c9ab4fb28e073  repo/TE-method-2024/1-model training/Data/DSC_NCM811_40_5.txt
+c3d06e5d3d834fd2b408c10353e0471f4072ef8e697bd3d98c1601ca00a0e5fd  repo/TE-method-2024/1-model training/Data/DSC_NCM811_60_5.txt
+fb8529022f2d45d4a4e1fa5e0e606df570e48148001675ee06a686bccc876fd6  repo/TE-method-2024/1-model training/Data/DSC_NCM811_80_5.txt
+fd9a955fb1f5c3ad668dcda49b8c29ed9485a759b64d93957d9f0e469b16d5dc  repo/TE-method-2024/1-model training/Data/DSC_NCM811_FEC_5.txt
+22ec975ade8375e911a5393f8f72ea90fbd21c113ef000d553635fa900d0d08a  repo/TE-method-2024/1-model training/Data/DSC_NCM811_HC_5.txt
+7f496b399194d7f6b883c02a51507043a3ea693a325bbb4d86a2d0f2f19ff994  repo/TE-method-2024/1-model training/Data/DSC_NCM811_PS_5.txt
+d4f087507bf826a131cffccdec768cffff6f3d9e51336006fd6572ad48270da5  repo/TE-method-2024/1-model training/Data/DSC_NCM811_VC_5.txt
+c841abdfc1870bd22303b34f799db1a81b0980e9a84ef0cca8f4994dc6b326d8  repo/TE-method-2024/1-model training/Data/DSC_NCM83116_5.txt

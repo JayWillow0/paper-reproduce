@@ -1,0 +1,177 @@
+Loading train-battery datasets ...
+  NCA: 4461 samples
+  NCM83116: 4101 samples
+  NCM811_100: 3791 samples
+  NCM811_60: 3111 samples
+  NCM811_40: 2811 samples
+  NCM811_20: 1811 samples
+  NCM811_0: 1621 samples
+  NCM811_FEC: 3461 samples
+  NCM811_PS: 3551 samples
+  NCM811_HC: 3001 samples
+  NCM622: 3551 samples
+[shared-s1] Epoch 1/50 - train_loss: 11.52561 - val_loss: 8.09572
+[shared-s1] Epoch 2/50 - train_loss: 4.38144 - val_loss: 2.01825
+[shared-s1] Epoch 3/50 - train_loss: 1.78526 - val_loss: 1.15255
+[shared-s1] Epoch 4/50 - train_loss: 1.28978 - val_loss: 0.91193
+[shared-s1] Epoch 5/50 - train_loss: 1.12396 - val_loss: 0.77693
+[shared-s1] Epoch 6/50 - train_loss: 1.01280 - val_loss: 0.70060
+[shared-s1] Epoch 7/50 - train_loss: 0.91792 - val_loss: 0.64330
+[shared-s1] Epoch 8/50 - train_loss: 0.86654 - val_loss: 0.59912
+[shared-s1] Epoch 9/50 - train_loss: 0.82125 - val_loss: 0.55255
+[shared-s1] Epoch 10/50 - train_loss: 0.78266 - val_loss: 0.51804
+[shared-s1] Epoch 11/50 - train_loss: 0.75239 - val_loss: 0.49275
+[shared-s1] Epoch 12/50 - train_loss: 0.73689 - val_loss: 0.48677
+[shared-s1] Epoch 13/50 - train_loss: 0.70906 - val_loss: 0.47373
+[shared-s1] Epoch 14/50 - train_loss: 0.68913 - val_loss: 0.45021
+[shared-s1] Epoch 15/50 - train_loss: 0.68229 - val_loss: 0.43542
+[shared-s1] Epoch 16/50 - train_loss: 0.66284 - val_loss: 0.42931
+[shared-s1] Epoch 17/50 - train_loss: 0.63429 - val_loss: 0.41100
+[shared-s1] Epoch 18/50 - train_loss: 0.62515 - val_loss: 0.40596
+[shared-s1] Epoch 19/50 - train_loss: 0.61840 - val_loss: 0.39871
+[shared-s1] Epoch 20/50 - train_loss: 0.61327 - val_loss: 0.38237
+[shared-s1] Epoch 21/50 - train_loss: 0.58962 - val_loss: 0.37701
+[shared-s1] Epoch 22/50 - train_loss: 0.57855 - val_loss: 0.36447
+[shared-s1] Epoch 23/50 - train_loss: 0.57401 - val_loss: 0.35339
+[shared-s1] Epoch 24/50 - train_loss: 0.55903 - val_loss: 0.34388
+[shared-s1] Epoch 25/50 - train_loss: 0.55288 - val_loss: 0.34350
+[shared-s1] Epoch 26/50 - train_loss: 0.54089 - val_loss: 0.34383
+[shared-s1] Epoch 27/50 - train_loss: 0.53363 - val_loss: 0.32039
+[shared-s1] Epoch 28/50 - train_loss: 0.51397 - val_loss: 0.30819
+[shared-s1] Epoch 29/50 - train_loss: 0.51108 - val_loss: 0.30525
+[shared-s1] Epoch 30/50 - train_loss: 0.50042 - val_loss: 0.29632
+[shared-s1] Epoch 31/50 - train_loss: 0.48722 - val_loss: 0.28286
+[shared-s1] Epoch 32/50 - train_loss: 0.47250 - val_loss: 0.27383
+[shared-s1] Epoch 33/50 - train_loss: 0.47262 - val_loss: 0.26976
+[shared-s1] Epoch 34/50 - train_loss: 0.46398 - val_loss: 0.25993
+[shared-s1] Epoch 35/50 - train_loss: 0.45491 - val_loss: 0.25906
+[shared-s1] Epoch 36/50 - train_loss: 0.44794 - val_loss: 0.24718
+[shared-s1] Epoch 37/50 - train_loss: 0.42917 - val_loss: 0.23478
+[shared-s1] Epoch 38/50 - train_loss: 0.42599 - val_loss: 0.22801
+[shared-s1] Epoch 39/50 - train_loss: 0.41405 - val_loss: 0.23756
+[shared-s1] Epoch 40/50 - train_loss: 0.40985 - val_loss: 0.21585
+[shared-s1] Epoch 41/50 - train_loss: 0.40140 - val_loss: 0.21220
+[shared-s1] Epoch 42/50 - train_loss: 0.39062 - val_loss: 0.20412
+[shared-s1] Epoch 43/50 - train_loss: 0.38075 - val_loss: 0.19687
+[shared-s1] Epoch 44/50 - train_loss: 0.38180 - val_loss: 0.20000
+[shared-s1] Epoch 45/50 - train_loss: 0.37457 - val_loss: 0.18793
+[shared-s1] Epoch 46/50 - train_loss: 0.36662 - val_loss: 0.18234
+[shared-s1] Epoch 47/50 - train_loss: 0.35644 - val_loss: 0.17707
+[shared-s1] Epoch 48/50 - train_loss: 0.35317 - val_loss: 0.17598
+[shared-s1] Epoch 49/50 - train_loss: 0.34386 - val_loss: 0.16529
+[shared-s1] Epoch 50/50 - train_loss: 0.33878 - val_loss: 0.15980
+  seed=1 NCM811_80: MSE = 0.5153
+  seed=1 NCM811_VC: MSE = 0.4150
+  seed=1 NCM523: MSE = 1.7450
+[shared-s7] Epoch 1/50 - train_loss: 11.93081 - val_loss: 8.81050
+[shared-s7] Epoch 2/50 - train_loss: 7.46498 - val_loss: 3.65983
+[shared-s7] Epoch 3/50 - train_loss: 2.29793 - val_loss: 1.29493
+[shared-s7] Epoch 4/50 - train_loss: 1.38042 - val_loss: 0.90498
+[shared-s7] Epoch 5/50 - train_loss: 1.13066 - val_loss: 0.75765
+[shared-s7] Epoch 6/50 - train_loss: 1.00739 - val_loss: 0.66696
+[shared-s7] Epoch 7/50 - train_loss: 0.91642 - val_loss: 0.60014
+[shared-s7] Epoch 8/50 - train_loss: 0.87482 - val_loss: 0.55527
+[shared-s7] Epoch 9/50 - train_loss: 0.82131 - val_loss: 0.53095
+[shared-s7] Epoch 10/50 - train_loss: 0.78766 - val_loss: 0.52223
+[shared-s7] Epoch 11/50 - train_loss: 0.75467 - val_loss: 0.46174
+[shared-s7] Epoch 12/50 - train_loss: 0.72100 - val_loss: 0.43653
+[shared-s7] Epoch 13/50 - train_loss: 0.70033 - val_loss: 0.41322
+[shared-s7] Epoch 14/50 - train_loss: 0.67578 - val_loss: 0.40355
+[shared-s7] Epoch 15/50 - train_loss: 0.64489 - val_loss: 0.37779
+[shared-s7] Epoch 16/50 - train_loss: 0.62402 - val_loss: 0.36401
+[shared-s7] Epoch 17/50 - train_loss: 0.62324 - val_loss: 0.35456
+[shared-s7] Epoch 18/50 - train_loss: 0.60259 - val_loss: 0.34601
+[shared-s7] Epoch 19/50 - train_loss: 0.59475 - val_loss: 0.34694
+[shared-s7] Epoch 20/50 - train_loss: 0.58710 - val_loss: 0.32376
+[shared-s7] Epoch 21/50 - train_loss: 0.56349 - val_loss: 0.31960
+[shared-s7] Epoch 22/50 - train_loss: 0.56197 - val_loss: 0.30562
+[shared-s7] Epoch 23/50 - train_loss: 0.54685 - val_loss: 0.32547
+[shared-s7] Epoch 24/50 - train_loss: 0.53482 - val_loss: 0.29834
+[shared-s7] Epoch 25/50 - train_loss: 0.53333 - val_loss: 0.29120
+[shared-s7] Epoch 26/50 - train_loss: 0.52160 - val_loss: 0.28582
+[shared-s7] Epoch 27/50 - train_loss: 0.50997 - val_loss: 0.26831
+[shared-s7] Epoch 28/50 - train_loss: 0.50598 - val_loss: 0.27479
+[shared-s7] Epoch 29/50 - train_loss: 0.49322 - val_loss: 0.26218
+[shared-s7] Epoch 30/50 - train_loss: 0.48128 - val_loss: 0.25002
+[shared-s7] Epoch 31/50 - train_loss: 0.47401 - val_loss: 0.25367
+[shared-s7] Epoch 32/50 - train_loss: 0.46970 - val_loss: 0.23505
+[shared-s7] Epoch 33/50 - train_loss: 0.45416 - val_loss: 0.23756
+[shared-s7] Epoch 34/50 - train_loss: 0.44698 - val_loss: 0.23315
+[shared-s7] Epoch 35/50 - train_loss: 0.43649 - val_loss: 0.22031
+[shared-s7] Epoch 36/50 - train_loss: 0.43451 - val_loss: 0.21169
+[shared-s7] Epoch 37/50 - train_loss: 0.42824 - val_loss: 0.20848
+[shared-s7] Epoch 38/50 - train_loss: 0.41633 - val_loss: 0.20386
+[shared-s7] Epoch 39/50 - train_loss: 0.40779 - val_loss: 0.20302
+[shared-s7] Epoch 40/50 - train_loss: 0.40114 - val_loss: 0.21732
+[shared-s7] Epoch 41/50 - train_loss: 0.39513 - val_loss: 0.18258
+[shared-s7] Epoch 42/50 - train_loss: 0.38390 - val_loss: 0.17918
+[shared-s7] Epoch 43/50 - train_loss: 0.38436 - val_loss: 0.17478
+[shared-s7] Epoch 44/50 - train_loss: 0.37374 - val_loss: 0.18507
+[shared-s7] Epoch 45/50 - train_loss: 0.36894 - val_loss: 0.16393
+[shared-s7] Epoch 46/50 - train_loss: 0.36027 - val_loss: 0.16353
+[shared-s7] Epoch 47/50 - train_loss: 0.35066 - val_loss: 0.17387
+[shared-s7] Epoch 48/50 - train_loss: 0.34668 - val_loss: 0.15187
+[shared-s7] Epoch 49/50 - train_loss: 0.34040 - val_loss: 0.15331
+[shared-s7] Epoch 50/50 - train_loss: 0.33411 - val_loss: 0.14459
+  seed=7 NCM811_80: MSE = 1.1079
+  seed=7 NCM811_VC: MSE = 0.4592
+  seed=7 NCM523: MSE = 1.4554
+[shared-s42] Epoch 1/50 - train_loss: 11.73760 - val_loss: 8.48811
+[shared-s42] Epoch 2/50 - train_loss: 5.43739 - val_loss: 2.43689
+[shared-s42] Epoch 3/50 - train_loss: 2.03967 - val_loss: 1.39403
+[shared-s42] Epoch 4/50 - train_loss: 1.44561 - val_loss: 1.08534
+[shared-s42] Epoch 5/50 - train_loss: 1.22198 - val_loss: 0.91190
+[shared-s42] Epoch 6/50 - train_loss: 1.05626 - val_loss: 0.78041
+[shared-s42] Epoch 7/50 - train_loss: 0.94961 - val_loss: 0.67456
+[shared-s42] Epoch 8/50 - train_loss: 0.86395 - val_loss: 0.61838
+[shared-s42] Epoch 9/50 - train_loss: 0.80827 - val_loss: 0.57218
+[shared-s42] Epoch 10/50 - train_loss: 0.76429 - val_loss: 0.52564
+[shared-s42] Epoch 11/50 - train_loss: 0.72650 - val_loss: 0.49431
+[shared-s42] Epoch 12/50 - train_loss: 0.70205 - val_loss: 0.47587
+[shared-s42] Epoch 13/50 - train_loss: 0.66903 - val_loss: 0.45040
+[shared-s42] Epoch 14/50 - train_loss: 0.64974 - val_loss: 0.43107
+[shared-s42] Epoch 15/50 - train_loss: 0.63292 - val_loss: 0.41465
+[shared-s42] Epoch 16/50 - train_loss: 0.61137 - val_loss: 0.39563
+[shared-s42] Epoch 17/50 - train_loss: 0.59388 - val_loss: 0.38112
+[shared-s42] Epoch 18/50 - train_loss: 0.58261 - val_loss: 0.36857
+[shared-s42] Epoch 19/50 - train_loss: 0.56648 - val_loss: 0.35890
+[shared-s42] Epoch 20/50 - train_loss: 0.54940 - val_loss: 0.34309
+[shared-s42] Epoch 21/50 - train_loss: 0.54002 - val_loss: 0.33221
+[shared-s42] Epoch 22/50 - train_loss: 0.52414 - val_loss: 0.32857
+[shared-s42] Epoch 23/50 - train_loss: 0.51319 - val_loss: 0.31540
+[shared-s42] Epoch 24/50 - train_loss: 0.51020 - val_loss: 0.31659
+[shared-s42] Epoch 25/50 - train_loss: 0.49888 - val_loss: 0.30063
+[shared-s42] Epoch 26/50 - train_loss: 0.48074 - val_loss: 0.28450
+[shared-s42] Epoch 27/50 - train_loss: 0.47157 - val_loss: 0.29565
+[shared-s42] Epoch 28/50 - train_loss: 0.46437 - val_loss: 0.27059
+[shared-s42] Epoch 29/50 - train_loss: 0.45760 - val_loss: 0.26266
+[shared-s42] Epoch 30/50 - train_loss: 0.44807 - val_loss: 0.25460
+[shared-s42] Epoch 31/50 - train_loss: 0.44007 - val_loss: 0.25034
+[shared-s42] Epoch 32/50 - train_loss: 0.43090 - val_loss: 0.25638
+[shared-s42] Epoch 33/50 - train_loss: 0.42204 - val_loss: 0.23006
+[shared-s42] Epoch 34/50 - train_loss: 0.41541 - val_loss: 0.22782
+[shared-s42] Epoch 35/50 - train_loss: 0.40758 - val_loss: 0.22959
+[shared-s42] Epoch 36/50 - train_loss: 0.40140 - val_loss: 0.21021
+[shared-s42] Epoch 37/50 - train_loss: 0.39008 - val_loss: 0.20883
+[shared-s42] Epoch 38/50 - train_loss: 0.38215 - val_loss: 0.20616
+[shared-s42] Epoch 39/50 - train_loss: 0.38237 - val_loss: 0.20040
+[shared-s42] Epoch 40/50 - train_loss: 0.37044 - val_loss: 0.20320
+[shared-s42] Epoch 41/50 - train_loss: 0.36753 - val_loss: 0.18566
+[shared-s42] Epoch 42/50 - train_loss: 0.36054 - val_loss: 0.18926
+[shared-s42] Epoch 43/50 - train_loss: 0.36054 - val_loss: 0.19561
+[shared-s42] Epoch 44/50 - train_loss: 0.35564 - val_loss: 0.18542
+[shared-s42] Epoch 45/50 - train_loss: 0.35051 - val_loss: 0.17183
+[shared-s42] Epoch 46/50 - train_loss: 0.34304 - val_loss: 0.18860
+[shared-s42] Epoch 47/50 - train_loss: 0.33404 - val_loss: 0.17082
+[shared-s42] Epoch 48/50 - train_loss: 0.32627 - val_loss: 0.16995
+[shared-s42] Epoch 49/50 - train_loss: 0.32597 - val_loss: 0.15957
+[shared-s42] Epoch 50/50 - train_loss: 0.32099 - val_loss: 0.14874
+  seed=42 NCM811_80: MSE = 0.4783
+  seed=42 NCM811_VC: MSE = 0.3845
+  seed=42 NCM523: MSE = 1.3350
+
+==== SUMMARY (seeds 1/7/42) ====
+NCM811_80: mean 0.7005, range [0.4783, 1.1079], paper 0.47
+NCM811_VC: mean 0.4196, range [0.3845, 0.4592], paper 0.46
+NCM523: mean 1.5118, range [1.3350, 1.7450], paper 0.18
+Total runtime: 509.8 s

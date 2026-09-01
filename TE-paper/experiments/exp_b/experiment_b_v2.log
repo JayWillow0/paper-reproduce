@@ -1,0 +1,225 @@
+Building train datasets ...
+  NCA: 4461 samples, Temp_range [133.0, 579.0]
+  NCM83116: 4101 samples, Temp_range [90.0, 500.0]
+  NCM811_100: 3791 samples, Temp_range [118.0, 497.0]
+  NCM811_60: 3111 samples, Temp_range [131.0, 442.0]
+  NCM811_40: 2811 samples, Temp_range [131.0, 412.0]
+  NCM811_20: 1811 samples, Temp_range [137.0, 318.0]
+  NCM811_0: 1621 samples, Temp_range [143.0, 305.0]
+  NCM811_FEC: 3461 samples, Temp_range [112.0, 458.0]
+  NCM811_PS: 3551 samples, Temp_range [115.0, 470.0]
+  NCM811_HC: 3001 samples, Temp_range [121.0, 421.0]
+  NCM622: 3551 samples, Temp_range [126.0, 481.0]
+Total train-battery samples: 35271
+[shared] Epoch 1/200 - train_loss: 11.73760 - val_loss: 8.48811
+[shared] Epoch 2/200 - train_loss: 5.43739 - val_loss: 2.43689
+[shared] Epoch 3/200 - train_loss: 2.03967 - val_loss: 1.39403
+[shared] Epoch 4/200 - train_loss: 1.44561 - val_loss: 1.08534
+[shared] Epoch 5/200 - train_loss: 1.22198 - val_loss: 0.91190
+[shared] Epoch 6/200 - train_loss: 1.05626 - val_loss: 0.78041
+[shared] Epoch 7/200 - train_loss: 0.94961 - val_loss: 0.67456
+[shared] Epoch 8/200 - train_loss: 0.86395 - val_loss: 0.61838
+[shared] Epoch 9/200 - train_loss: 0.80827 - val_loss: 0.57218
+[shared] Epoch 10/200 - train_loss: 0.76429 - val_loss: 0.52564
+[shared] Epoch 11/200 - train_loss: 0.72650 - val_loss: 0.49431
+[shared] Epoch 12/200 - train_loss: 0.70205 - val_loss: 0.47587
+[shared] Epoch 13/200 - train_loss: 0.66903 - val_loss: 0.45040
+[shared] Epoch 14/200 - train_loss: 0.64974 - val_loss: 0.43107
+[shared] Epoch 15/200 - train_loss: 0.63292 - val_loss: 0.41465
+[shared] Epoch 16/200 - train_loss: 0.61137 - val_loss: 0.39563
+[shared] Epoch 17/200 - train_loss: 0.59388 - val_loss: 0.38112
+[shared] Epoch 18/200 - train_loss: 0.58261 - val_loss: 0.36857
+[shared] Epoch 19/200 - train_loss: 0.56648 - val_loss: 0.35890
+[shared] Epoch 20/200 - train_loss: 0.54940 - val_loss: 0.34309
+[shared] Epoch 21/200 - train_loss: 0.54002 - val_loss: 0.33221
+[shared] Epoch 22/200 - train_loss: 0.52414 - val_loss: 0.32857
+[shared] Epoch 23/200 - train_loss: 0.51319 - val_loss: 0.31540
+[shared] Epoch 24/200 - train_loss: 0.51020 - val_loss: 0.31659
+[shared] Epoch 25/200 - train_loss: 0.49888 - val_loss: 0.30063
+[shared] Epoch 26/200 - train_loss: 0.48074 - val_loss: 0.28450
+[shared] Epoch 27/200 - train_loss: 0.47157 - val_loss: 0.29565
+[shared] Epoch 28/200 - train_loss: 0.46437 - val_loss: 0.27059
+[shared] Epoch 29/200 - train_loss: 0.45760 - val_loss: 0.26266
+[shared] Epoch 30/200 - train_loss: 0.44807 - val_loss: 0.25460
+[shared] Epoch 31/200 - train_loss: 0.44007 - val_loss: 0.25034
+[shared] Epoch 32/200 - train_loss: 0.43090 - val_loss: 0.25638
+[shared] Epoch 33/200 - train_loss: 0.42204 - val_loss: 0.23006
+[shared] Epoch 34/200 - train_loss: 0.41541 - val_loss: 0.22782
+[shared] Epoch 35/200 - train_loss: 0.40758 - val_loss: 0.22959
+[shared] Epoch 36/200 - train_loss: 0.40140 - val_loss: 0.21021
+[shared] Epoch 37/200 - train_loss: 0.39008 - val_loss: 0.20883
+[shared] Epoch 38/200 - train_loss: 0.38215 - val_loss: 0.20616
+[shared] Epoch 39/200 - train_loss: 0.38237 - val_loss: 0.20040
+[shared] Epoch 40/200 - train_loss: 0.37044 - val_loss: 0.20320
+[shared] Epoch 41/200 - train_loss: 0.36753 - val_loss: 0.18566
+[shared] Epoch 42/200 - train_loss: 0.36054 - val_loss: 0.18926
+[shared] Epoch 43/200 - train_loss: 0.36054 - val_loss: 0.19561
+[shared] Epoch 44/200 - train_loss: 0.35564 - val_loss: 0.18542
+[shared] Epoch 45/200 - train_loss: 0.35051 - val_loss: 0.17183
+[shared] Epoch 46/200 - train_loss: 0.34304 - val_loss: 0.18860
+[shared] Epoch 47/200 - train_loss: 0.33404 - val_loss: 0.17082
+[shared] Epoch 48/200 - train_loss: 0.32627 - val_loss: 0.16995
+[shared] Epoch 49/200 - train_loss: 0.32597 - val_loss: 0.15957
+[shared] Epoch 50/200 - train_loss: 0.32099 - val_loss: 0.14874
+[shared] Epoch 51/200 - train_loss: 0.31647 - val_loss: 0.15233
+[shared] Epoch 52/200 - train_loss: 0.31631 - val_loss: 0.14570
+[shared] Epoch 53/200 - train_loss: 0.30748 - val_loss: 0.13975
+[shared] Epoch 54/200 - train_loss: 0.30116 - val_loss: 0.14011
+[shared] Epoch 55/200 - train_loss: 0.29455 - val_loss: 0.14192
+[shared] Epoch 56/200 - train_loss: 0.28738 - val_loss: 0.14371
+[shared] Epoch 57/200 - train_loss: 0.28753 - val_loss: 0.13175
+[shared] Epoch 58/200 - train_loss: 0.28469 - val_loss: 0.12746
+[shared] Epoch 59/200 - train_loss: 0.28170 - val_loss: 0.12279
+[shared] Epoch 60/200 - train_loss: 0.27788 - val_loss: 0.13854
+[shared] Epoch 61/200 - train_loss: 0.27799 - val_loss: 0.12099
+[shared] Epoch 62/200 - train_loss: 0.27358 - val_loss: 0.12252
+[shared] Epoch 63/200 - train_loss: 0.27156 - val_loss: 0.11301
+[shared] Epoch 64/200 - train_loss: 0.26420 - val_loss: 0.11178
+[shared] Epoch 65/200 - train_loss: 0.26072 - val_loss: 0.11214
+[shared] Epoch 66/200 - train_loss: 0.26302 - val_loss: 0.11726
+[shared] Epoch 67/200 - train_loss: 0.25740 - val_loss: 0.11107
+[shared] Epoch 68/200 - train_loss: 0.26012 - val_loss: 0.10742
+[shared] Epoch 69/200 - train_loss: 0.24910 - val_loss: 0.11084
+[shared] Epoch 70/200 - train_loss: 0.25121 - val_loss: 0.09912
+[shared] Epoch 71/200 - train_loss: 0.24712 - val_loss: 0.10188
+[shared] Epoch 72/200 - train_loss: 0.24364 - val_loss: 0.10125
+[shared] Epoch 73/200 - train_loss: 0.24268 - val_loss: 0.09382
+[shared] Epoch 74/200 - train_loss: 0.23907 - val_loss: 0.09725
+[shared] Epoch 75/200 - train_loss: 0.23781 - val_loss: 0.09787
+[shared] Epoch 76/200 - train_loss: 0.23451 - val_loss: 0.10704
+[shared] Epoch 77/200 - train_loss: 0.23438 - val_loss: 0.09518
+[shared] Epoch 78/200 - train_loss: 0.23212 - val_loss: 0.08751
+[shared] Epoch 79/200 - train_loss: 0.23048 - val_loss: 0.09283
+[shared] Epoch 80/200 - train_loss: 0.22932 - val_loss: 0.09102
+[shared] Epoch 81/200 - train_loss: 0.22307 - val_loss: 0.08375
+[shared] Epoch 82/200 - train_loss: 0.21881 - val_loss: 0.08757
+[shared] Epoch 83/200 - train_loss: 0.22254 - val_loss: 0.07855
+[shared] Epoch 84/200 - train_loss: 0.22103 - val_loss: 0.08410
+[shared] Epoch 85/200 - train_loss: 0.22092 - val_loss: 0.09113
+[shared] Epoch 86/200 - train_loss: 0.21662 - val_loss: 0.09069
+[shared] Epoch 87/200 - train_loss: 0.21471 - val_loss: 0.09482
+[shared] Epoch 88/200 - train_loss: 0.20931 - val_loss: 0.07916
+[shared] Epoch 89/200 - train_loss: 0.21126 - val_loss: 0.08054
+[shared] Epoch 90/200 - train_loss: 0.20853 - val_loss: 0.07822
+[shared] Epoch 91/200 - train_loss: 0.20831 - val_loss: 0.07607
+[shared] Epoch 92/200 - train_loss: 0.20901 - val_loss: 0.08774
+[shared] Epoch 93/200 - train_loss: 0.20687 - val_loss: 0.07536
+[shared] Epoch 94/200 - train_loss: 0.20431 - val_loss: 0.07450
+[shared] Epoch 95/200 - train_loss: 0.20910 - val_loss: 0.07167
+[shared] Epoch 96/200 - train_loss: 0.20727 - val_loss: 0.07013
+[shared] Epoch 97/200 - train_loss: 0.20105 - val_loss: 0.07435
+[shared] Epoch 98/200 - train_loss: 0.20392 - val_loss: 0.07342
+[shared] Epoch 99/200 - train_loss: 0.20531 - val_loss: 0.07050
+[shared] Epoch 100/200 - train_loss: 0.19928 - val_loss: 0.06994
+[shared] Epoch 101/200 - train_loss: 0.19458 - val_loss: 0.07398
+[shared] Epoch 102/200 - train_loss: 0.19708 - val_loss: 0.07426
+[shared] Epoch 103/200 - train_loss: 0.19468 - val_loss: 0.07762
+[shared] Epoch 104/200 - train_loss: 0.19564 - val_loss: 0.07176
+[shared] Epoch 105/200 - train_loss: 0.19374 - val_loss: 0.07392
+[shared] Epoch 106/200 - train_loss: 0.19409 - val_loss: 0.06988
+[shared] Epoch 107/200 - train_loss: 0.18703 - val_loss: 0.07375
+[shared] Epoch 108/200 - train_loss: 0.18986 - val_loss: 0.06656
+[shared] Epoch 109/200 - train_loss: 0.18945 - val_loss: 0.07110
+[shared] Epoch 110/200 - train_loss: 0.18956 - val_loss: 0.07570
+[shared] Epoch 111/200 - train_loss: 0.18780 - val_loss: 0.07037
+[shared] Epoch 112/200 - train_loss: 0.18640 - val_loss: 0.06351
+[shared] Epoch 113/200 - train_loss: 0.18503 - val_loss: 0.06535
+[shared] Epoch 114/200 - train_loss: 0.18456 - val_loss: 0.07017
+[shared] Epoch 115/200 - train_loss: 0.18601 - val_loss: 0.06116
+[shared] Epoch 116/200 - train_loss: 0.18558 - val_loss: 0.06173
+[shared] Epoch 117/200 - train_loss: 0.18499 - val_loss: 0.05973
+[shared] Epoch 118/200 - train_loss: 0.18150 - val_loss: 0.06128
+[shared] Epoch 119/200 - train_loss: 0.18233 - val_loss: 0.06629
+[shared] Epoch 120/200 - train_loss: 0.17833 - val_loss: 0.06270
+[shared] Epoch 121/200 - train_loss: 0.18015 - val_loss: 0.07116
+[shared] Epoch 122/200 - train_loss: 0.18247 - val_loss: 0.06547
+[shared] Epoch 123/200 - train_loss: 0.18076 - val_loss: 0.05963
+[shared] Epoch 124/200 - train_loss: 0.17857 - val_loss: 0.06741
+[shared] Epoch 125/200 - train_loss: 0.17720 - val_loss: 0.06195
+[shared] Epoch 126/200 - train_loss: 0.17630 - val_loss: 0.06370
+[shared] Epoch 127/200 - train_loss: 0.17962 - val_loss: 0.05858
+[shared] Epoch 128/200 - train_loss: 0.17845 - val_loss: 0.06403
+[shared] Epoch 129/200 - train_loss: 0.17624 - val_loss: 0.06955
+[shared] Epoch 130/200 - train_loss: 0.17772 - val_loss: 0.05652
+[shared] Epoch 131/200 - train_loss: 0.17516 - val_loss: 0.05467
+[shared] Epoch 132/200 - train_loss: 0.17432 - val_loss: 0.06067
+[shared] Epoch 133/200 - train_loss: 0.17495 - val_loss: 0.06589
+[shared] Epoch 134/200 - train_loss: 0.17147 - val_loss: 0.06130
+[shared] Epoch 135/200 - train_loss: 0.17526 - val_loss: 0.05464
+[shared] Epoch 136/200 - train_loss: 0.17279 - val_loss: 0.05832
+[shared] Epoch 137/200 - train_loss: 0.17098 - val_loss: 0.06174
+[shared] Epoch 138/200 - train_loss: 0.17558 - val_loss: 0.05989
+[shared] Epoch 139/200 - train_loss: 0.16948 - val_loss: 0.06045
+[shared] Epoch 140/200 - train_loss: 0.17167 - val_loss: 0.06237
+[shared] Epoch 141/200 - train_loss: 0.17211 - val_loss: 0.05664
+[shared] Epoch 142/200 - train_loss: 0.16833 - val_loss: 0.06026
+[shared] Epoch 143/200 - train_loss: 0.16909 - val_loss: 0.05487
+[shared] Epoch 144/200 - train_loss: 0.17083 - val_loss: 0.05946
+[shared] Epoch 145/200 - train_loss: 0.16990 - val_loss: 0.05203
+[shared] Epoch 146/200 - train_loss: 0.16920 - val_loss: 0.05436
+[shared] Epoch 147/200 - train_loss: 0.16992 - val_loss: 0.05527
+[shared] Epoch 148/200 - train_loss: 0.16887 - val_loss: 0.05476
+[shared] Epoch 149/200 - train_loss: 0.16682 - val_loss: 0.05430
+[shared] Epoch 150/200 - train_loss: 0.16805 - val_loss: 0.07636
+[shared] Epoch 151/200 - train_loss: 0.16610 - val_loss: 0.06383
+[shared] Epoch 152/200 - train_loss: 0.16672 - val_loss: 0.05218
+[shared] Epoch 153/200 - train_loss: 0.16573 - val_loss: 0.05571
+[shared] Epoch 154/200 - train_loss: 0.16273 - val_loss: 0.05599
+[shared] Epoch 155/200 - train_loss: 0.16671 - val_loss: 0.05453
+[shared] Epoch 156/200 - train_loss: 0.16197 - val_loss: 0.06247
+[shared] Epoch 157/200 - train_loss: 0.16053 - val_loss: 0.06889
+[shared] Epoch 158/200 - train_loss: 0.16521 - val_loss: 0.05308
+[shared] Epoch 159/200 - train_loss: 0.16290 - val_loss: 0.05346
+[shared] Epoch 160/200 - train_loss: 0.16345 - val_loss: 0.05603
+[shared] Epoch 161/200 - train_loss: 0.16168 - val_loss: 0.04884
+[shared] Epoch 162/200 - train_loss: 0.16193 - val_loss: 0.06303
+[shared] Epoch 163/200 - train_loss: 0.16100 - val_loss: 0.05197
+[shared] Epoch 164/200 - train_loss: 0.16440 - val_loss: 0.05115
+[shared] Epoch 165/200 - train_loss: 0.16188 - val_loss: 0.04876
+[shared] Epoch 166/200 - train_loss: 0.15957 - val_loss: 0.04891
+[shared] Epoch 167/200 - train_loss: 0.15958 - val_loss: 0.05325
+[shared] Epoch 168/200 - train_loss: 0.15773 - val_loss: 0.06173
+[shared] Epoch 169/200 - train_loss: 0.16402 - val_loss: 0.04942
+[shared] Epoch 170/200 - train_loss: 0.16144 - val_loss: 0.05861
+[shared] Epoch 171/200 - train_loss: 0.15945 - val_loss: 0.04906
+[shared] Epoch 172/200 - train_loss: 0.15452 - val_loss: 0.05045
+[shared] Epoch 173/200 - train_loss: 0.15757 - val_loss: 0.05323
+[shared] Epoch 174/200 - train_loss: 0.16080 - val_loss: 0.05161
+[shared] Epoch 175/200 - train_loss: 0.15742 - val_loss: 0.04825
+[shared] Epoch 176/200 - train_loss: 0.15663 - val_loss: 0.05442
+[shared] Epoch 177/200 - train_loss: 0.15490 - val_loss: 0.04656
+[shared] Epoch 178/200 - train_loss: 0.15574 - val_loss: 0.06450
+[shared] Epoch 179/200 - train_loss: 0.15541 - val_loss: 0.04781
+[shared] Epoch 180/200 - train_loss: 0.15871 - val_loss: 0.05269
+[shared] Epoch 181/200 - train_loss: 0.15524 - val_loss: 0.04705
+[shared] Epoch 182/200 - train_loss: 0.15737 - val_loss: 0.05533
+[shared] Epoch 183/200 - train_loss: 0.15550 - val_loss: 0.04834
+[shared] Epoch 184/200 - train_loss: 0.15542 - val_loss: 0.04641
+[shared] Epoch 185/200 - train_loss: 0.15321 - val_loss: 0.04682
+[shared] Epoch 186/200 - train_loss: 0.15340 - val_loss: 0.04295
+[shared] Epoch 187/200 - train_loss: 0.15286 - val_loss: 0.04950
+[shared] Epoch 188/200 - train_loss: 0.15382 - val_loss: 0.05380
+[shared] Epoch 189/200 - train_loss: 0.15544 - val_loss: 0.04669
+[shared] Epoch 190/200 - train_loss: 0.15453 - val_loss: 0.04848
+[shared] Epoch 191/200 - train_loss: 0.14982 - val_loss: 0.04771
+[shared] Epoch 192/200 - train_loss: 0.15118 - val_loss: 0.04508
+[shared] Epoch 193/200 - train_loss: 0.15280 - val_loss: 0.04390
+[shared] Epoch 194/200 - train_loss: 0.15023 - val_loss: 0.05176
+[shared] Epoch 195/200 - train_loss: 0.15193 - val_loss: 0.04868
+[shared] Epoch 196/200 - train_loss: 0.15295 - val_loss: 0.04841
+[shared] Epoch 197/200 - train_loss: 0.14919 - val_loss: 0.04434
+[shared] Epoch 198/200 - train_loss: 0.14936 - val_loss: 0.04256
+[shared] Epoch 199/200 - train_loss: 0.15292 - val_loss: 0.05881
+[shared] Epoch 200/200 - train_loss: 0.15471 - val_loss: 0.04189
+Evaluating on holdout test batteries ...
+  NCM811_80: MSE = 0.6876 (paper Table S8: 0.47)
+  NCM811_VC: MSE = 0.7778 (paper Table S8: 0.46)
+  NCM523: MSE = 1.9694 (paper Table S8: 0.18)
+
+==== SUMMARY ====
+Sample-level val MSE (final): 0.0419 | best: 0.0419 @epoch 200
+Holdout NCM811_80: MSE 0.6876 (paper 0.47)
+Holdout NCM811_VC: MSE 0.7778 (paper 0.46)
+Holdout NCM523: MSE 1.9694 (paper 0.18)
+Total runtime: 609.1 s
+Done.
