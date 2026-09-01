@@ -1,6 +1,6 @@
 # TE-method-2024 本地复现与审计
 
-本项目保存对 Joule 论文 `Thermal runaway prediction of batteries via temperature expansion` 的本地复现代码和统一协议结果。重点不是复述论文数字，而是检查随机切片验证、整电池留出和邻片剔除分别回答什么问题。
+本项目保存对 Joule 论文 Temperature excavation to boost machine learning battery thermochemical predictions 的本地复现代码和统一协议结果。重点不是复述论文数字，而是检查随机切片验证、整电池留出和邻片剔除分别回答什么问题。
 
 ## 当前结论
 

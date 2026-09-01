@@ -6,7 +6,7 @@
 
 | 目录 | 论文或方法 | 状态 |
 |---|---|---|
-| [`TE-paper`](TE-paper/) | Thermal runaway prediction based on temperature expansion | 已完成统一协议的本地审计，仍缺多电池和批次级验证 |
+| [`TE-paper`](TE-paper/) | Temperature excavation to boost machine learning battery thermochemical predictions | 已完成统一协议的本地审计，仍缺多电池和批次级验证 |
 
 ## 统一结构
 
