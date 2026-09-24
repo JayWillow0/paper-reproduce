@@ -7,6 +7,7 @@
 | 目录 | 论文或方法 | 状态 |
 |---|---|---|
 | [`TE-paper`](TE-paper/) | Temperature excavation to boost machine learning battery thermochemical predictions | 已完成统一协议的本地审计，仍缺多电池和批次级验证 |
+| [`TRSim-paper`](TRSim-paper/) | Feng Xuning et al. (2015) 25 Ah NMC 电池模组热失控传播模型 | 学习用途，已完成 Fig.10–19 全量 Python 复现 |
 
 ## 统一结构
 

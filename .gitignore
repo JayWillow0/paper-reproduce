@@ -13,6 +13,7 @@
 **/.pytest_cache/
 **/.mypy_cache/
 **/.ruff_cache/
+**/*.egg-info/
 
 # Generated caches and local model weights
 **/cache/
@@ -30,5 +31,8 @@
 **/tmp/
 **/*.tmp
 **/*.bak
+
+# Local agent session artifacts
+.zcode/
 
 .env/

@@ -1,0 +1,5 @@
+# 输入数据哈希清单
+# 本项目无外部输入数据文件：Feng 2015 论文参数全部硬编码于
+# src/moduletr/reactions.py（_standard_reactions）与 src/moduletr/config.py
+#（热网络默认值），复现脚本运行时不读取任何数据文件。
+# 复现运行的代码与环境哈希见 REPRODUCIBILITY.md。

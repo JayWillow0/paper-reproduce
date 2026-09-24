@@ -1,0 +1,22 @@
+{
+  "topology": {"n_cells": 3, "holders": "both"},
+  "trigger": {
+    "kind": "needle",
+    "cell": 1,
+    "heating_stop_mode": "self_heating_rate",
+    "trigger_energy_j": 400000.0,
+    "spontaneous_energy_j": 370000.0,
+    "heater_power_w_per_node": 1000.0,
+    "release_duration_s": 10.0,
+    "tr_threshold_k": 533.15,
+    "self_heating_stop_rate_k_per_s": 1.0
+  },
+  "reactions": {
+    "model": "standard",
+    "active": ["SEI", "anode", "separator", "electrolyte", "cathode1", "cathode2"],
+    "overrides": {}
+  },
+  "solver": {"method": "auto", "preset": "default"},
+  "t_end_s": 2000.0,
+  "ambient_temperature_k": 299.15
+}

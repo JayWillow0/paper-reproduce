@@ -1,0 +1,69 @@
+Rendering Fig. 10 (default)
+Rendering Fig. 11 (default)
+Rendering Fig. 12 (default)
+Rendering Fig. 13 (default)
+Rendering Fig. 14 (default)
+Rendering Fig. 15 (default)
+ModuleTR complete: cells=6, points=6540, segments=22, peak=1485.008 K, elapsed=2.506 s
+ModuleTR complete: cells=6, points=6892, segments=22, peak=1498.421 K, elapsed=2.608 s
+ModuleTR complete: cells=6, points=6975, segments=22, peak=1566.680 K, elapsed=2.798 s
+ModuleTR complete: cells=6, points=7050, segments=22, peak=1575.846 K, elapsed=2.626 s
+ModuleTR complete: cells=6, points=6988, segments=22, peak=1575.675 K, elapsed=2.895 s
+ModuleTR complete: cells=6, points=7216, segments=22, peak=1539.781 K, elapsed=3.329 s
+Sweep 1/6: 170°C
+Sweep 2/6: 260°C
+Sweep 3/6: 360°C
+Sweep 4/6: 470°C
+Sweep 5/6: 560°C
+Sweep 6/6: 770°C
+Rendering Fig. 16 (default)
+ModuleTR complete: cells=6, points=6642, segments=22, peak=1585.264 K, elapsed=2.455 s
+ModuleTR complete: cells=6, points=6702, segments=22, peak=1541.230 K, elapsed=2.587 s
+ModuleTR complete: cells=6, points=6892, segments=22, peak=1498.421 K, elapsed=2.537 s
+ModuleTR complete: cells=6, points=7063, segments=22, peak=1465.334 K, elapsed=2.800 s
+ModuleTR complete: cells=6, points=7035, segments=22, peak=1356.249 K, elapsed=2.753 s
+ModuleTR complete: cells=6, points=7281, segments=22, peak=1247.964 K, elapsed=2.948 s
+Sweep 1/6: 120% ΔHe
+Sweep 2/6: 110% ΔHe
+Sweep 3/6: 100% ΔHe
+Sweep 4/6: 90% ΔHe
+Sweep 5/6: 65% ΔHe
+Sweep 6/6: 40% ΔHe
+Rendering Fig. 17 (default)
+ModuleTR complete: cells=6, points=6886, segments=22, peak=1502.994 K, elapsed=2.753 s
+ModuleTR complete: cells=6, points=6818, segments=22, peak=1502.499 K, elapsed=2.526 s
+ModuleTR complete: cells=6, points=6892, segments=22, peak=1498.421 K, elapsed=2.751 s
+ModuleTR complete: cells=6, points=7081, segments=22, peak=1497.492 K, elapsed=2.854 s
+ModuleTR complete: cells=6, points=7016, segments=22, peak=1494.779 K, elapsed=2.771 s
+ModuleTR complete: cells=6, points=7120, segments=22, peak=1493.399 K, elapsed=2.709 s
+ModuleTR complete: cells=6, points=7096, segments=22, peak=1492.357 K, elapsed=2.606 s
+Sweep 1/7: hdis=5
+Sweep 2/7: hdis=10
+Sweep 3/7: hdis=25
+Sweep 4/7: hdis=50
+Sweep 5/7: hdis=80
+Sweep 6/7: hdis=100
+Sweep 7/7: hdis=200
+Rendering Fig. 18 (default)
+ModuleTR complete: cells=6, points=6937, segments=22, peak=1498.385 K, elapsed=2.630 s
+ModuleTR complete: cells=6, points=7071, segments=22, peak=1499.724 K, elapsed=2.638 s
+ModuleTR complete: cells=6, points=7109, segments=22, peak=1506.596 K, elapsed=2.674 s
+ModuleTR complete: cells=6, points=7026, segments=22, peak=1508.843 K, elapsed=2.765 s
+ModuleTR complete: cells=6, points=7065, segments=22, peak=1519.944 K, elapsed=2.768 s
+ModuleTR complete: cells=6, points=7451, segments=22, peak=1527.123 K, elapsed=3.127 s
+ModuleTR complete: cells=6, points=7234, segments=22, peak=1560.924 K, elapsed=2.980 s
+ModuleTR complete: cells=6, points=7012, segments=22, peak=1599.310 K, elapsed=2.806 s
+Sweep 1/8: no layer
+Sweep 2/8: kD=10
+Sweep 3/8: kD=1
+Sweep 4/8: kD=0.6
+Sweep 5/8: kD=0.3
+Sweep 6/8: kD=0.2
+Sweep 7/8: kD=0.08
+Sweep 8/8: kD=0.04
+Rendering Fig. 19 (default)
+ModuleTR complete: cells=6, points=4643, segments=2, peak=1435.969 K, elapsed=0.795 s
+ModuleTR complete: cells=6, points=4713, segments=2, peak=1326.952 K, elapsed=0.764 s
+Sweep 1/2: 400 kJ, 26°C
+Sweep 2/2: 320 kJ, 17°C
+Outputs saved to: /Users/jaywillowkk/MyCode/paper-reproduce/TRSim-paper/results/fengxuning
