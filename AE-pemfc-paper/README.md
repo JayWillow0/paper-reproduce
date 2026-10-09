@@ -19,7 +19,7 @@ DOI https://doi.org/10.1016/j.apenergy.2018.10.068
 | `src/pemfc_coldstart/` | 共享物理与数值模块 |
 | `experiments/` | 统一重跑、核验与绘图脚本，运行索引与汇总 JSON |
 | `experiments/exp_a/`–`exp_d/` | 图4/5/8/9 实验：配置、入口脚本、参考数据与逐次运行数据（`runs/` 体积较大，不进入 Git） |
-| `results/` | 文章图 PNG（当前为 2026-10-09 校准版图4/5/8/9） |
+| `results/` | 文章图 PNG（当前为校准版图4/5/8/9） |
 | `tests/` | 物性、守恒、空间离散、求解器与完整性测试 |
 | `REPRODUCIBILITY.md` | 环境、命令、运行标识、结果哈希与结论边界 |
 | `input_data.sha256` | 固定输入哈希清单 |
@@ -91,7 +91,7 @@ DOI https://doi.org/10.1016/j.apenergy.2018.10.068
 | exp_c | 图8，平衡机制和脱附速率 |
 | exp_d | 图9，产水机制和空间分布 |
 
-共享物理模块放在 `src/pemfc_coldstart/`。2026-10-09统一重跑的文章运行由 `experiments/full_reproduction_runs.json` 固定，汇总结果写入 `experiments/full_reproduction_summary.json`。历史索引继续保留，不改写其出处。
+共享物理模块放在 `src/pemfc_coldstart/`。当前文章运行由 `experiments/full_reproduction_runs.json` 固定，汇总结果写入 `experiments/full_reproduction_summary.json`。历史索引继续保留，不改写其出处。
 
 ## 运行
 
@@ -130,17 +130,17 @@ python3 -m venv .venv
 
 ## 结果
 
-`results/` 保存当前文章图。现有四张为 2026-10-09 校准试验（用户授权）生成的 `part3_fig4/5/8/9_calibrated.png`，运行登记见 `experiments/calibration_runs.json`。直接预测版本可用 `make_article_figures.py --assets results` 重新生成（`part3_fig*_reproduction.png`）。校准结论与直接预测结论分开陈述，见下方校准试验记录与 `REPRODUCIBILITY.md`。
+`results/` 保存当前文章图。现有四张为校准试验生成的 `part3_fig4/5/8/9_calibrated.png`，运行登记见 `experiments/calibration_runs.json`。直接预测版本可用 `make_article_figures.py --assets results` 重新生成（`part3_fig*_reproduction.png`）。校准结论与直接预测结论分开陈述，见下方校准试验记录与 `REPRODUCIBILITY.md`。
 
 ## 技术记录与结论边界
 
-### 2026-10-09 统一重跑与误差控制
+### 统一重跑与误差控制
 
 统一重跑图4、5、8、9时，图5暴露近零液水库存的误差尺度问题。`liquid_inventory_atol=1e-12 mol/m³`只作用于非平衡模型的孔隙液水库存，与`ice_inventory_atol`分开记录。该设置不裁剪状态、不更改相变源项；四组文章结果在此修复后统一重算，最终图只保存PNG。
 
-逐字式图5等温BDF曾在18.3971334 s到达 `λ=2` 的吸引型切换面后步长下溢；对应Radau诊断运行持续54 min仍不能有效推进。获批的C2连续化实施后，图5等温BDF用30.15 s墙钟时间完成90 s，Radau用43.72 s完成90 s。两者电压轨迹最大差为6.92e-8 V。半宽0.05与0.10的关键非零统计量差小于0.067%，收紧时间容差十倍后的差小于0.0013%。11个文章工况中9个完成请求终点，另外2个以压力适用域事件结束，没有数值失败。根因、方案和结论边界见外部工作笔记 `part3_fig5_lambda2_diagnosis.md` 与 `part3_lambda2_regularization_proposal.md`（不随本仓库分发）。
+逐字式图5等温BDF曾在18.3971334 s到达 `λ=2` 的吸引型切换面后步长下溢；对应Radau诊断运行持续54 min仍不能有效推进。C2连续化方案实施后，图5等温BDF用30.15 s墙钟时间完成90 s，Radau用43.72 s完成90 s。两者电压轨迹最大差为6.92e-8 V。半宽0.05与0.10的关键非零统计量差小于0.067%，收紧时间容差十倍后的差小于0.0013%。11个文章工况中9个完成请求终点，另外2个以压力适用域事件结束，没有数值失败。根因、方案和结论边界见外部工作笔记 `part3_fig5_lambda2_diagnosis.md` 与 `part3_lambda2_regularization_proposal.md`（不随本仓库分发）。
 
-### 三项修复协议（用户已授权）
+### 三项修复协议
 
 实施细则见外部工作笔记 `part3_repair_plan.md`（不随本仓库分发）。欧姆热为体积源，储库焓交换不反加热流道等效层；完整电势解进入动态右端；几何孔隙与反应平滑分开，接受步和事件有效性先于电压输出。代表工况新运行独立保存，以 `experiments/repair_runs.json` 登记，不覆盖既有选中运行和文章图。修复验收以功率、守恒、耦合反馈及最早事件的独立测试为准。
 
@@ -148,7 +148,7 @@ python3 -m venv .venv
 
 修复说明及结论边界见外部工作笔记 `part3_repair_results.md`（不随本仓库分发）。平衡分支的长时切换收敛尚未解决，输出中的 `valid` 只表示已保存文件与状态有效，不表示70 s计算完成；同时检查 `status` 和 `end_time_s`。
 
-### 平衡分支继续修复（2026-09-30）
+### 平衡分支继续修复
 
 `phase_preserving_jacobian` 修复跨相分配阈值的差分割线。等温粗网格BDF、Radau、收紧容差均推进到66.4024 s附近的压力边界，取代前述“19 s停滞尚未定位”的状态。新运行由 `experiments/equilibrium_repair_runs.json` 固定，空间网格探索由 `experiments/equilibrium_grid_runs.json` 固定，验证索引为 `experiments/equilibrium_repair_checks.json`。
 
@@ -160,15 +160,15 @@ python3 -m venv .venv
 .venv/bin/python -m pytest -q
 ```
 
-2026-10-07负库存诊断表明BDF接受步的历史多项式可在零冰源期间产生微小负值。孔隙冰库存qi采用独立绝对容差1e-12 mol/m³，其余默认尺度不变；不裁剪状态、不放宽1e-9 mol/m³有效性门限。保留全部失败记录，用基准/加密网格和Radau验证；接受步预算独立记录，触顶仍判失败。
+负库存诊断表明BDF接受步的历史多项式可在零冰源期间产生微小负值。孔隙冰库存qi采用独立绝对容差1e-12 mol/m³，其余默认尺度不变；不裁剪状态、不放宽1e-9 mol/m³有效性门限。保留全部失败记录，用基准/加密网格和Radau验证；接受步预算独立记录，触顶仍判失败。
 
-2026-10-07用户已确认有序平衡仅作等温对照。生产simulate入口拒绝ordered_equilibrium与coupled组合，说明该有序容量分配存在非单调能量反算；非平衡热耦合继续支持。底层状态解码保留用于历史数据和显式诊断，不作为获准运行该物理组合的入口。新热平衡闭合须另行审阅。
+有序平衡仅作等温对照。生产simulate入口拒绝ordered_equilibrium与coupled组合，说明该有序容量分配存在非单调能量反算；非平衡热耦合继续支持。底层状态解码保留用于历史数据和显式诊断，不作为获准运行该物理组合的入口。新热平衡闭合须另行审阅。
 
-2026-10-07继续空间审查。对CL/MPL制造状态发现液水共同压力无根时静默返回零通量。该路径改为明确的LiquidInterfaceClosureError，由现有积分器记录并减步重试，最终无法闭合则保存最后有效状态并报告数值失败。已保存基准/细网格轨迹未触发此分支，不以该缺陷解释已经观测的网格误差。
+继续空间审查：对CL/MPL制造状态发现液水共同压力无根时静默返回零通量。该路径改为明确的LiquidInterfaceClosureError，由现有积分器记录并减步重试，最终无法闭合则保存最后有效状态并报告数值失败。已保存基准/细网格轨迹未触发此分支，不以该缺陷解释已经观测的网格误差。
 
-2026-10-07局部网格诊断：固定材料物性与模型参数，分别只将膜或阴极CL的cells_base翻倍，其余单元数保持基准。由独立配置完整记录materials（含原物性），入口必须能够无损重载嵌套材料配置。两项验证分别运行并保留日志，用于定位空间误差，不以局部加密直接宣称全网格收敛。
+局部网格诊断：固定材料物性与模型参数，分别只将膜或阴极CL的cells_base翻倍，其余单元数保持基准。由独立配置完整记录materials（含原物性），入口必须能够无损重载嵌套材料配置。两项验证分别运行并保留日志，用于定位空间误差，不以局部加密直接宣称全网格收敛。
 
-### 空间诊断最终状态（2026-10-07）
+### 空间诊断最终状态
 
 最新单层网格索引为 `experiments/local_grid_runs.json`。膜20至40格的BDF在67.150250953 s触发压力域事件；阴极CL20至40格的BDF于28.343859150 s耗尽12000步预算，其有效前缀保留；同一CL网格的Radau在67.925937865 s触发压力域事件。CL局部加密相对全域加密的最大冰量轨迹差为0.003280，事件时差0.0378245 s，但两者的CL均为40格，仍不能证明空间收敛。四组时间/全域对照加上三组局部运行中，六组到达压力域事件、一组数值失败；文件有效性与工况完成状态分别记录。
 
@@ -176,7 +176,7 @@ python3 -m venv .venv
 
 诊断目录保留各阶段清单，最终 `manifest.json` 记录当前归档，`integrity.json` 记录编译、固定输入及七组输出验证。历史运行源码哈希保持原值。
 
-### 校准试验（2026-10-09，用户授权）
+### 校准试验
 
 依据 Jiao 2009（Electrochim Acta 54:6876，Table 5 与本复现动力学数值完全一致）与 Tajiri 2007（JPS 165:279，图4/5实验数据来源）做有限校准，目标为图4/5/8/9的电压水平与趋势。校准自由度三个：`cathode_bv_exponent_multiplier=0.25`（阴极Tafel斜率25.1→约100 mV/dec，依据Tajiri图3实验斜率从25 °C约66升至−25 °C约103 mV/dec）、`j0_cathode_a_per_m3`由1e4调至1e7 A/m³@353.15 K（在实验斜率下使图4初始电压命中实验0.620±0.015 V）、`anode_vapor_boundary="dead_end"`（Huo表2死端阳极，蒸气零通量）。数值选项：`voltage_stop_v=0.3`与实验cut-off一致，`pressure_domain_fraction=0.2`。所有新参数默认值保持原直接预测行为不变。
 
