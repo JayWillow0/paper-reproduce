@@ -8,6 +8,7 @@
 |---|---|---|
 | [`TE-paper`](TE-paper/) | Temperature excavation to boost machine learning battery thermochemical predictions | 已完成统一协议的本地审计，仍缺多电池和批次级验证 |
 | [`TRSim-paper`](TRSim-paper/) | Feng Xuning et al. (2015) 25 Ah NMC 电池模组热失控传播模型 | 学习用途，已完成 Fig.10–19 全量 Python 复现 |
+| [`AE-pemfc-paper`](AE-pemfc-paper/) | Huo et al. (2019) PEMFC 冷启动一维多层模型（Applied Energy 233–234） | 学习用途，已完成 Fig.4/5/8/9 直接预测与有限校准，校准图见 `results/`，逐次运行数据本地保留 |
 
 ## 统一结构
 
