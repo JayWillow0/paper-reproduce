@@ -1,0 +1,5 @@
+{
+  "case": {"name": "fig4_grid_fine", "lambda_initial": 3.4, "phase_mode": "non_equilibrium", "product_mode": "dissolved", "thermal_mode": "isothermal", "resolution": "fine", "t_end_s": 70.0, "output_interval_s": 0.2},
+  "solver": {"method": "BDF", "rtol": 1e-6, "atol": 1e-8, "max_step_s": 0.05},
+  "parameter_overrides": {}
+}

@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "protocol": "2026-10-09_calibration_tajiri_tafel_deadend",
+  "calibration_status": "calibrated_figs4_only_verified_figs5_8_9",
+  "calibrated_parameters": {
+    "cathode_bv_exponent_multiplier": 0.25,
+    "j0_cathode_a_per_m3": 10000000.0,
+    "anode_vapor_boundary": "dead_end"
+  },
+  "numerical_options": {
+    "voltage_stop_v": 0.3,
+    "pressure_domain_fraction": 0.2
+  },
+  "basis": {
+    "cathode_tafel_slope": "Tajiri 2007 JPS 165:279 Fig.3: ORR Tafel slope ~66 mV/dec @25C to ~103 mV/dec @-25C, -20C ~100 mV/dec; original alpha*n=2 gives only 25.1 mV/dec",
+    "j0_cathode": "adjusted 1e4->1e7 A/m3 @353.15K so that fig4 initial voltage matches experiment 0.620+/-0.015 V at the experimental Tafel slope; kinetics values otherwise identical to Jiao 2009 Table 5",
+    "anode_dead_end": "Huo 2019 Table 2: H2 dead-ended mode; anode vapor boundary changed from dry sink to zero-flux"
+  },
+  "runs": {
+    "fig4_cal_kinetics_only": "experiments/exp_a/runs/20261009T061237Z_4630a06c",
+    "fig4_cal_deadend_only": "experiments/exp_a/runs/20261009T061324Z_201e534b",
+    "fig4_cal_combined": "experiments/exp_a/runs/20261009T061506Z_56ec0b50",
+    "fig4_cal_combined_t95": "experiments/exp_a/runs/20261009T062144Z_3d28a41c",
+    "fig5_cal_verification": "experiments/exp_b/runs/20261009T062300Z_a833fc36",
+    "fig8_cal_k1": "experiments/exp_c/runs/20261009T062538Z_4b63352a",
+    "fig8_cal_k2": "experiments/exp_c/runs/20261009T062609Z_ab6f59a3",
+    "fig8_cal_k3": "experiments/exp_c/runs/20261009T062636Z_524765f3",
+    "fig9_cal_dissolved": "experiments/exp_d/runs/20261009T062712Z_3c55c999",
+    "fig9_cal_vapor": "experiments/exp_d/runs/20261009T062744Z_0e435ecc",
+    "fig9_cal_liquid": "experiments/exp_d/runs/20261009T062819Z_7ac5ee7d",
+    "fig4_cal_combined_t95_coupled": "experiments/exp_a/runs/20261009T063718Z_5444d8e2",
+    "fig5_cal_verification_coupled": "experiments/exp_b/runs/20261009T063852Z_5f0195b8"
+  }
+}

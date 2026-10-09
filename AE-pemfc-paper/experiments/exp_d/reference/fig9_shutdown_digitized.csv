@@ -1,0 +1,4 @@
+product_mode,shutdown_time_s,time_uncertainty_s,source_kind,source_page
+dissolved,62.0,0.7,digitized_paper_simulation,787
+vapor,48.0,0.7,digitized_paper_simulation,787
+liquid,40.0,0.7,digitized_paper_simulation,787

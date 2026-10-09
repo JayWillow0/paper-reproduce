@@ -1,0 +1,27 @@
+{
+  "case": {
+    "name": "fig4_cal_combined_coupled",
+    "lambda_initial": 3.4,
+    "phase_mode": "non_equilibrium",
+    "product_mode": "dissolved",
+    "thermal_mode": "coupled",
+    "resolution": "base",
+    "t_end_s": 95.0,
+    "output_interval_s": 0.1,
+    "voltage_stop_v": 0.3
+  },
+  "solver": {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "atol": 1e-08,
+    "max_step_s": 0.05,
+    "pressure_domain_fraction": 0.2
+  },
+  "parameter_overrides": {
+    "membrane_diffusivity_mode": "paper_c2_regularized",
+    "membrane_diffusivity_transition_half_width": 0.1,
+    "cathode_bv_exponent_multiplier": 0.25,
+    "j0_cathode_a_per_m3": 10000000.0,
+    "anode_vapor_boundary": "dead_end"
+  }
+}

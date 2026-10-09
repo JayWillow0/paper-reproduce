@@ -1,0 +1,107 @@
+{
+  "cathode_cl_radau": {
+    "label": "cathode_cl_radau",
+    "run": "experiments/exp_c/runs/20261007T135928Z_1c949b22",
+    "status": "pressure_out_of_domain",
+    "end_time_s": 67.9259378649711,
+    "wall_s": 811.8713889122009,
+    "cells": 128,
+    "V": 0.9767424249298131,
+    "ice": 0.969716368272376,
+    "budget": {
+      "energy_budget_residual_j_per_m2": "not_integrated_isothermal",
+      "energy_budget_residual_relative": "not_integrated_isothermal",
+      "dynamic_charge_residual_max": 9.99875737761613e-13,
+      "water_initial_mol_per_m2": 0.23256000000000004,
+      "water_final_mol_per_m2": 0.4780641871704193,
+      "faraday_produced_mol_per_m2": 0.35200136835561063,
+      "boundary_water_net_mol_per_m2": -0.10649718120391044,
+      "water_budget_residual_mol_per_m2": 1.8719081840146146e-11,
+      "water_budget_residual_relative": 2.7087548301193347e-11,
+      "voltage_min_v": 0.9670629812003891,
+      "temperature_max_k": 253.15,
+      "finite_state": "True",
+      "status": "pressure_out_of_domain",
+      "charge_predictor_l1_relative_max": 0.5127000090490975
+    },
+    "validation": {
+      "missing": [],
+      "valid": true,
+      "time_monotone": true,
+      "finite": true,
+      "hash_mismatches": [],
+      "physical_domain": true,
+      "dynamic_charge": true
+    }
+  },
+  "membrane_only": {
+    "label": "membrane_only",
+    "run": "experiments/exp_c/runs/20261007T134928Z_6afe968d",
+    "status": "pressure_out_of_domain",
+    "end_time_s": 67.15025095287865,
+    "wall_s": 185.11259198188782,
+    "cells": 128,
+    "V": 0.9761623294102475,
+    "ice": 0.969155585295958,
+    "budget": {
+      "energy_budget_residual_j_per_m2": "not_integrated_isothermal",
+      "energy_budget_residual_relative": "not_integrated_isothermal",
+      "dynamic_charge_residual_max": 9.994209904107266e-13,
+      "water_initial_mol_per_m2": 0.23256,
+      "water_final_mol_per_m2": 0.47414131795004505,
+      "faraday_produced_mol_per_m2": 0.34798165419259297,
+      "boundary_water_net_mol_per_m2": -0.10640033624823433,
+      "water_budget_residual_mol_per_m2": 5.686423554251974e-12,
+      "water_budget_residual_relative": 8.27788027720195e-12,
+      "voltage_min_v": 0.9669987896326797,
+      "temperature_max_k": 253.15,
+      "finite_state": "True",
+      "status": "pressure_out_of_domain",
+      "charge_predictor_l1_relative_max": 0.5107436918450001
+    },
+    "validation": {
+      "missing": [],
+      "valid": true,
+      "time_monotone": true,
+      "finite": true,
+      "hash_mismatches": [],
+      "physical_domain": true,
+      "dynamic_charge": true
+    }
+  },
+  "cathode_cl_only": {
+    "label": "cathode_cl_only",
+    "run": "experiments/exp_c/runs/20261007T134939Z_fee512a2",
+    "status": "failed",
+    "end_time_s": 28.343859150457256,
+    "wall_s": 412.64941906929016,
+    "cells": 128,
+    "V": 0.9893557130734352,
+    "ice": 0.10728373661993994,
+    "budget": {
+      "energy_budget_residual_j_per_m2": "not_integrated_isothermal",
+      "energy_budget_residual_relative": "not_integrated_isothermal",
+      "dynamic_charge_residual_max": 9.98397808871232e-13,
+      "water_initial_mol_per_m2": 0.23256000000000004,
+      "water_final_mol_per_m2": 0.3570611794134362,
+      "faraday_produced_mol_per_m2": 0.14688169967226544,
+      "boundary_water_net_mol_per_m2": -0.022380520258867068,
+      "water_budget_residual_mol_per_m2": 3.7761460625063137e-14,
+      "water_budget_residual_relative": 9.397554130166071e-14,
+      "voltage_min_v": 0.9670629812003891,
+      "temperature_max_k": 253.15,
+      "finite_state": "True",
+      "status": "failed",
+      "charge_predictor_l1_relative_max": 0.5127000090490975
+    },
+    "validation": {
+      "missing": [],
+      "valid": true,
+      "time_monotone": true,
+      "finite": true,
+      "hash_mismatches": [],
+      "physical_domain": true,
+      "dynamic_charge": true
+    }
+  }
+}

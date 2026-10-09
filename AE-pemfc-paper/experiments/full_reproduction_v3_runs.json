@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "model_protocol": "full_charge_geometric_v3_lambda2_c2",
+  "runs": {
+    "exp_a_isothermal": {
+      "run": "experiments/exp_a/runs/20261009T052326Z_bebf80ab",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 23.345782250000003
+    },
+    "exp_a_coupled": {
+      "run": "experiments/exp_a/runs/20261009T052350Z_44a3280d",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 98.603996834
+    },
+    "exp_b_isothermal": {
+      "run": "experiments/exp_b/runs/20261009T052528Z_b7540cdb",
+      "status": "completed",
+      "end_time_s": 90.0,
+      "elapsed_s": 30.148590541000004
+    },
+    "exp_b_coupled": {
+      "run": "experiments/exp_b/runs/20261009T052558Z_63bc70f8",
+      "status": "completed",
+      "end_time_s": 90.0,
+      "elapsed_s": 134.09667808299997
+    },
+    "exp_c_kappa1": {
+      "run": "experiments/exp_c/runs/20261009T052813Z_11b57e03",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 23.113788582999973
+    },
+    "exp_c_kappa2": {
+      "run": "experiments/exp_c/runs/20261009T052836Z_d8c8b371",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 25.018191207999962
+    },
+    "exp_c_kappa3": {
+      "run": "experiments/exp_c/runs/20261009T052901Z_f83eff47",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 22.63877495899999
+    },
+    "exp_c_equilibrium_coarse": {
+      "run": "experiments/exp_c/runs/20261009T052923Z_9edcf272",
+      "status": "pressure_out_of_domain",
+      "end_time_s": 66.40235655613598,
+      "elapsed_s": 43.59256770799999
+    },
+    "exp_d_dissolved": {
+      "run": "experiments/exp_d/runs/20261009T053007Z_b1fb8781",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 23.30315908299997
+    },
+    "exp_d_vapor": {
+      "run": "experiments/exp_d/runs/20261009T053030Z_858c1066",
+      "status": "completed",
+      "end_time_s": 70.0,
+      "elapsed_s": 24.428194209000026
+    },
+    "exp_d_liquid": {
+      "run": "experiments/exp_d/runs/20261009T053055Z_f4048690",
+      "status": "pressure_out_of_domain",
+      "end_time_s": 34.184802196962146,
+      "elapsed_s": 24.122324166999988
+    }
+  }
+}

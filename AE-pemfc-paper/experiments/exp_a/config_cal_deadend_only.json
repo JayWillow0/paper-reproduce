@@ -1,0 +1,23 @@
+{
+  "case": {
+    "name": "deadend_only",
+    "lambda_initial": 3.4,
+    "phase_mode": "non_equilibrium",
+    "product_mode": "dissolved",
+    "thermal_mode": "isothermal",
+    "resolution": "base",
+    "t_end_s": 70.0,
+    "output_interval_s": 0.1
+  },
+  "solver": {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "atol": 1e-08,
+    "max_step_s": 0.05
+  },
+  "parameter_overrides": {
+    "membrane_diffusivity_mode": "paper_c2_regularized",
+    "membrane_diffusivity_transition_half_width": 0.1,
+    "anode_vapor_boundary": "dead_end"
+  }
+}

@@ -27,6 +27,13 @@
 **/data/
 **/data
 
+# PEMFC experiment run data (bulky per-run outputs);
+# exp_* configs, entry scripts and reference data stay tracked
+AE-pemfc-paper/experiments/exp_*/runs/
+
+# Copyrighted paper PDFs must never enter the repository
+**/*.pdf
+
 # Temporary files
 **/tmp/
 **/*.tmp
@@ -34,5 +41,6 @@
 
 # Local agent session artifacts
 .zcode/
+.zcodeignore
 
 .env/

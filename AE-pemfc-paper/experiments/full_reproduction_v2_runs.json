@@ -1,0 +1,57 @@
+{
+  "exp_a_isothermal": {
+    "run": "experiments/exp_a/runs/20261009T001528Z_83141588",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_a_coupled": {
+    "run": "experiments/exp_a/runs/20261009T001529Z_12eac5f3",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_b_isothermal": {
+    "run": "experiments/exp_b/runs/20261009T001224Z_9748a59b",
+    "status": "failed",
+    "end_time_s": 18.397133413295748
+  },
+  "exp_b_coupled": {
+    "run": "experiments/exp_b/runs/20261009T001224Z_b07dcb7c",
+    "status": "completed",
+    "end_time_s": 90.0
+  },
+  "exp_c_kappa1": {
+    "run": "experiments/exp_c/runs/20261009T001528Z_00574f97",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_c_kappa2": {
+    "run": "experiments/exp_c/runs/20261009T001528Z_87181456",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_c_kappa3": {
+    "run": "experiments/exp_c/runs/20261009T001940Z_e8a3ebc9",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_c_equilibrium_coarse": {
+    "run": "experiments/exp_c/runs/20261009T001940Z_6d11034a",
+    "status": "pressure_out_of_domain",
+    "end_time_s": 66.40235655613598
+  },
+  "exp_d_dissolved": {
+    "run": "experiments/exp_d/runs/20261009T001940Z_28103ad8",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_d_vapor": {
+    "run": "experiments/exp_d/runs/20261009T001940Z_f85adeba",
+    "status": "completed",
+    "end_time_s": 70.0
+  },
+  "exp_d_liquid": {
+    "run": "experiments/exp_d/runs/20261009T002105Z_5111df5e",
+    "status": "pressure_out_of_domain",
+    "end_time_s": 34.192534618413795
+  }
+}

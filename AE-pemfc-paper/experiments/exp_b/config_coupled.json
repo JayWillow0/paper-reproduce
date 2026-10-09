@@ -1,0 +1,5 @@
+{
+  "case": {"name": "fig5_lambda_2p9_coupled", "lambda_initial": 2.9, "phase_mode": "non_equilibrium", "product_mode": "dissolved", "thermal_mode": "coupled", "resolution": "base", "t_end_s": 90.0, "output_interval_s": 0.1},
+  "solver": {"method": "BDF", "rtol": 1e-6, "atol": 1e-8, "max_step_s": 0.05},
+  "parameter_overrides": {"membrane_diffusivity_mode": "paper_c2_regularized", "membrane_diffusivity_transition_half_width": 0.10}
+}

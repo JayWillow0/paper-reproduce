@@ -1,0 +1,733 @@
+{
+  "schema": 1,
+  "selected_runs": {
+    "exp_a_isothermal": {
+      "run_id": "20260929T085235Z_83141588",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 49176,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749441079981022,
+      "voltage_min_v": 0.9665632103941558,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.405797915437569,
+      "lambda_cathode_max_final": 7.730144758045193,
+      "ice_cathode_mean_final": 0.44752473874730503,
+      "ice_cathode_max_final": 0.7452886594699448,
+      "liquid_cathode_max_final": 0.011163720578288782,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": 0.5030455055109905,
+      "voltage_mae_v": 0.46912755953889096,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3815536799632091,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21355127668814283,
+        "water_budget_residual_mol_per_m2": -0.00020448133026856885,
+        "water_budget_residual_relative": -0.00025280165862926504,
+        "voltage_min_v": 0.9665632103941558,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_a_coupled": {
+      "run_id": "20260929T085309Z_12eac5f3",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 39713,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9793412586118185,
+      "voltage_min_v": 0.9668158110575903,
+      "temperature_max_k": 255.05501779554933,
+      "lambda_cathode_mean_final": 7.53136533583961,
+      "lambda_cathode_max_final": 7.930092739424302,
+      "ice_cathode_mean_final": 0.2944520308979922,
+      "ice_cathode_max_final": 0.6048001856721366,
+      "liquid_cathode_max_final": 0.00926495258281468,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": 0.5058794662268044,
+      "voltage_mae_v": 0.471809765519159,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3555047223558877,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.23960011137981746,
+        "water_budget_residual_mol_per_m2": -0.00020460424591534077,
+        "water_budget_residual_relative": -0.0002450615711268697,
+        "voltage_min_v": 0.9668158110575903,
+        "temperature_max_k": 255.05501779554933,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_a_coarse": {
+      "run_id": "20260929T085351Z_33ca3400",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 18948,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9746098782431614,
+      "voltage_min_v": 0.9660527944969115,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.424074050614253,
+      "lambda_cathode_max_final": 7.735267243126824,
+      "ice_cathode_mean_final": 0.4634273031299321,
+      "ice_cathode_max_final": 0.7662251850985863,
+      "liquid_cathode_max_final": 0.011249411246414485,
+      "charge_predictor_l1_relative_max": 0.5076647390732686,
+      "voltage_rmse_v": 0.5027232406987434,
+      "voltage_mae_v": 0.46877063222662424,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3813073565166823,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21359285919241028,
+        "water_budget_residual_mol_per_m2": -0.00040922227252793153,
+        "water_budget_residual_relative": -0.000505898269738613,
+        "voltage_min_v": 0.9660527944969115,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5076647390732686
+      }
+    },
+    "exp_a_fine": {
+      "run_id": "20260929T085402Z_316d98e4",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 129620,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749589730948247,
+      "voltage_min_v": 0.9666878720755832,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.399051641106077,
+      "lambda_cathode_max_final": 7.730200624354623,
+      "ice_cathode_mean_final": 0.4407162835523015,
+      "ice_cathode_max_final": 0.7366505860837406,
+      "liquid_cathode_max_final": 0.011102620909395951,
+      "charge_predictor_l1_relative_max": 0.5127000090490985,
+      "voltage_rmse_v": 0.5030665180942318,
+      "voltage_mae_v": 0.46915710519792453,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.38193018395692724,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21296999520429977,
+        "water_budget_residual_mol_per_m2": -0.0004092588203934988,
+        "water_budget_residual_relative": -0.0005063333342286853,
+        "voltage_min_v": 0.9666878720755832,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5127000090490985
+      }
+    },
+    "exp_a_tight": {
+      "run_id": "20260929T085608Z_f84dc27d",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 59707,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749441120548253,
+      "voltage_min_v": 0.9665635509402667,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.405796179281723,
+      "lambda_cathode_max_final": 7.730143609712119,
+      "ice_cathode_mean_final": 0.4475230838551342,
+      "ice_cathode_max_final": 0.7452873898792646,
+      "liquid_cathode_max_final": 0.011163729343200816,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": 0.5030454891106598,
+      "voltage_mae_v": 0.46912753484491143,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.38155324323068407,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.2133469755239746,
+        "water_budget_residual_mol_per_m2": -0.00040921922696182667,
+        "water_budget_residual_relative": -0.00050604832921293,
+        "voltage_min_v": 0.9665635509402667,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_a_radau": {
+      "run_id": "20260929T085647Z_49659d57",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 148264,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749441148132493,
+      "voltage_min_v": 0.9665635580135289,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.405796040530657,
+      "lambda_cathode_max_final": 7.730143538665208,
+      "ice_cathode_mean_final": 0.44752288273111845,
+      "ice_cathode_max_final": 0.7452872068863312,
+      "liquid_cathode_max_final": 0.011163731924565476,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": 0.5030454897688417,
+      "voltage_mae_v": 0.4691275343255757,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.381553202465119,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21334703832232038,
+        "water_budget_residual_mol_per_m2": -0.0004091971941811434,
+        "water_budget_residual_relative": -0.000506021043758194,
+        "voltage_min_v": 0.9665635580135289,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_b_isothermal": {
+      "run_id": "20260929T085822Z_9748a59b",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 63108,
+      "end_time_s": 90.0,
+      "voltage_final_v": 0.9747130636506354,
+      "voltage_min_v": 0.9527782307301563,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.498055052027878,
+      "lambda_cathode_max_final": 7.7751609349546875,
+      "ice_cathode_mean_final": 0.5255669490556718,
+      "ice_cathode_max_final": 0.8406201724259552,
+      "liquid_cathode_max_final": 0.011025331739353909,
+      "charge_predictor_l1_relative_max": 0.5818465002355534,
+      "voltage_rmse_v": 0.4636199825049636,
+      "voltage_mae_v": 0.4336650717027473,
+      "budget": {
+        "water_initial_mol_per_m2": 0.19835999999999998,
+        "water_final_mol_per_m2": 0.3989979534067031,
+        "faraday_produced_mol_per_m2": 0.4663921345477978,
+        "boundary_water_net_mol_per_m2": -0.2656128489664524,
+        "water_budget_residual_mol_per_m2": -0.00014133217464235015,
+        "water_budget_residual_relative": -0.00015191046218065814,
+        "voltage_min_v": 0.9527782307301563,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5818465002355534
+      }
+    },
+    "exp_b_coupled": {
+      "run_id": "20260929T085908Z_b07dcb7c",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 61064,
+      "end_time_s": 90.0,
+      "voltage_final_v": 0.9797994249608939,
+      "voltage_min_v": 0.9528409832788589,
+      "temperature_max_k": 255.21820162578604,
+      "lambda_cathode_mean_final": 7.5816895011250685,
+      "lambda_cathode_max_final": 7.962879690870498,
+      "ice_cathode_mean_final": 0.3138931510553454,
+      "ice_cathode_max_final": 0.645451954564147,
+      "liquid_cathode_max_final": 0.008931886755157803,
+      "charge_predictor_l1_relative_max": 0.5818465002355534,
+      "voltage_rmse_v": 0.46669879366032163,
+      "voltage_mae_v": 0.43661205979962336,
+      "budget": {
+        "water_initial_mol_per_m2": 0.19835999999999998,
+        "water_final_mol_per_m2": 0.36099081088200463,
+        "faraday_produced_mol_per_m2": 0.4663921345477978,
+        "boundary_water_net_mol_per_m2": -0.30361988601580486,
+        "water_budget_residual_mol_per_m2": -0.00014143764998830743,
+        "water_budget_residual_relative": -0.00014605714228090692,
+        "voltage_min_v": 0.9528409832788589,
+        "temperature_max_k": 255.21820162578604,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5818465002355534
+      }
+    },
+    "exp_c_kappa1": {
+      "run_id": "20260929T090008Z_00574f97",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 49176,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749441079981022,
+      "voltage_min_v": 0.9665632103941558,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.405797915437569,
+      "lambda_cathode_max_final": 7.730144758045193,
+      "ice_cathode_mean_final": 0.44752473874730503,
+      "ice_cathode_max_final": 0.7452886594699448,
+      "liquid_cathode_max_final": 0.011163720578288782,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3815536799632091,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21355127668814283,
+        "water_budget_residual_mol_per_m2": -0.00020448133026856885,
+        "water_budget_residual_relative": -0.00025280165862926504,
+        "voltage_min_v": 0.9665632103941558,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_c_kappa2": {
+      "run_id": "20260929T090046Z_87181456",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 47647,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9744413004651179,
+      "voltage_min_v": 0.9665632103941558,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.280569437391526,
+      "lambda_cathode_max_final": 7.561030375142957,
+      "ice_cathode_mean_final": 0.4578261559333161,
+      "ice_cathode_max_final": 0.7797919228702432,
+      "liquid_cathode_max_final": 0.01184155038822582,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.38315679715079687,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.2119481584419589,
+        "water_budget_residual_mol_per_m2": -0.00020448238886472403,
+        "water_budget_residual_relative": -0.00025330500421507247,
+        "voltage_min_v": 0.9665632103941558,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_c_kappa3": {
+      "run_id": "20260929T090123Z_e8a3ebc9",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 45824,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.974245206823643,
+      "voltage_min_v": 0.9665632103941558,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.229772529914845,
+      "lambda_cathode_max_final": 7.49394884305793,
+      "ice_cathode_mean_final": 0.4614401371620696,
+      "ice_cathode_max_final": 0.7942780895961501,
+      "liquid_cathode_max_final": 0.012205086433921585,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3838410544554086,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.2112639466907611,
+        "water_budget_residual_mol_per_m2": -0.00020443683545079416,
+        "water_budget_residual_relative": -0.00025346340374699254,
+        "voltage_min_v": 0.9665632103941558,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_c_equilibrium_coarse": {
+      "run_id": "20260929T090157Z_6d11034a",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "pore_blocked",
+      "message": "总液水与冰饱和度在64.6072 s达到1",
+      "evaluations": 105784,
+      "end_time_s": 64.6071702617971,
+      "voltage_final_v": 0.9278759725449138,
+      "voltage_min_v": 0.9278759725449138,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.305862128393797,
+      "lambda_cathode_max_final": 7.305862128393798,
+      "ice_cathode_mean_final": 0.7004166094163351,
+      "ice_cathode_max_final": 0.9775145320214683,
+      "liquid_cathode_max_final": 0.028055681258987955,
+      "charge_predictor_l1_relative_max": 0.5076647390732686,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.46311144326980586,
+        "faraday_produced_mol_per_m2": 0.3348030671721395,
+        "boundary_water_net_mol_per_m2": -0.10424742954295532,
+        "water_budget_residual_mol_per_m2": -4.194359378290047e-06,
+        "water_budget_residual_relative": -6.2452260630306145e-06,
+        "voltage_min_v": 0.9278759725449138,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "pore_blocked",
+        "charge_predictor_l1_relative_max": 0.5076647390732686
+      }
+    },
+    "exp_d_dissolved": {
+      "run_id": "20260929T090258Z_28103ad8",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 49176,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749441079981022,
+      "voltage_min_v": 0.9665632103941558,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.405797915437569,
+      "lambda_cathode_max_final": 7.730144758045193,
+      "ice_cathode_mean_final": 0.44752473874730503,
+      "ice_cathode_max_final": 0.7452886594699448,
+      "liquid_cathode_max_final": 0.011163720578288782,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3815536799632091,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21355127668814283,
+        "water_budget_residual_mol_per_m2": -0.00020448133026856885,
+        "water_budget_residual_relative": -0.00025280165862926504,
+        "voltage_min_v": 0.9665632103941558,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_d_vapor": {
+      "run_id": "20260929T090335Z_f85adeba",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "completed",
+      "message": "The solver successfully reached the end of the integration interval.",
+      "evaluations": 45316,
+      "end_time_s": 70.0,
+      "voltage_final_v": 0.9749419224025228,
+      "voltage_min_v": 0.9665066983838481,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 7.391250910464639,
+      "lambda_cathode_max_final": 7.717211581613846,
+      "ice_cathode_mean_final": 0.4402388581190205,
+      "ice_cathode_max_final": 0.7389274656338967,
+      "liquid_cathode_max_final": 0.011059063332778691,
+      "charge_predictor_l1_relative_max": 0.5107436918449983,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3794121735138444,
+        "faraday_produced_mol_per_m2": 0.3627494379816205,
+        "boundary_water_net_mol_per_m2": -0.21568706633622023,
+        "water_budget_residual_mol_per_m2": -0.00021019813155589984,
+        "water_budget_residual_relative": -0.0002591850031865492,
+        "voltage_min_v": 0.9665066983838481,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "completed",
+        "charge_predictor_l1_relative_max": 0.5107436918449983
+      }
+    },
+    "exp_d_liquid": {
+      "run_id": "20260929T090410Z_5111df5e",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "pore_blocked",
+      "message": "总液水与冰饱和度在39.5538 s达到1",
+      "evaluations": 45860,
+      "end_time_s": 39.553840973992365,
+      "voltage_final_v": 0.8415452926670868,
+      "voltage_min_v": 0.8415452926670868,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 3.1892041841563916,
+      "lambda_cathode_max_final": 3.653820235689135,
+      "ice_cathode_mean_final": 0.9435254392215274,
+      "ice_cathode_max_final": 0.9840154397761613,
+      "liquid_cathode_max_final": 0.02295342062882331,
+      "charge_predictor_l1_relative_max": 0.6892988815125664,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3555492766175904,
+        "faraday_produced_mol_per_m2": 0.20497333690471606,
+        "boundary_water_net_mol_per_m2": -0.08177970288278426,
+        "water_budget_residual_mol_per_m2": -0.00020435740434139593,
+        "water_budget_residual_relative": -0.00039351487192583825,
+        "voltage_min_v": 0.8415452926670868,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "pore_blocked",
+        "charge_predictor_l1_relative_max": 0.6892988815125664
+      }
+    },
+    "exp_d_liquid_smooth_090": {
+      "run_id": "20260929T090452Z_1a2cd647",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "pore_blocked",
+      "message": "总液水与冰饱和度在39.7833 s达到1",
+      "evaluations": 46542,
+      "end_time_s": 39.78328887389529,
+      "voltage_final_v": 0.835042189268367,
+      "voltage_min_v": 0.835042189268367,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 3.203536884672063,
+      "lambda_cathode_max_final": 3.72528857579786,
+      "ice_cathode_mean_final": 0.9473817956700036,
+      "ice_cathode_max_final": 0.9852377062825326,
+      "liquid_cathode_max_final": 0.023161085032232593,
+      "charge_predictor_l1_relative_max": 0.6951561592471602,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.3564077822857862,
+        "faraday_produced_mol_per_m2": 0.20616236685808534,
+        "boundary_water_net_mol_per_m2": -0.08211022934360297,
+        "water_budget_residual_mol_per_m2": -0.0002043552286961764,
+        "water_budget_residual_relative": -0.0003923625944045972,
+        "voltage_min_v": 0.835042189268367,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "pore_blocked",
+        "charge_predictor_l1_relative_max": 0.6951561592471602
+      }
+    },
+    "exp_d_liquid_smooth_099": {
+      "run_id": "20260929T090531Z_b2ab3980",
+      "validation": {
+        "missing": [],
+        "valid": true,
+        "time_monotone": true,
+        "finite": true
+      },
+      "status": "pore_blocked",
+      "message": "总液水与冰饱和度在39.4275 s达到1",
+      "evaluations": 42436,
+      "end_time_s": 39.427486739538686,
+      "voltage_final_v": 0.8485386274930622,
+      "voltage_min_v": 0.8485386274930622,
+      "temperature_max_k": 253.15,
+      "lambda_cathode_mean_final": 3.1785110846828704,
+      "lambda_cathode_max_final": 3.6027000396839215,
+      "ice_cathode_mean_final": 0.9411164322281274,
+      "ice_cathode_max_final": 0.9828965261377512,
+      "liquid_cathode_max_final": 0.022707017143854726,
+      "charge_predictor_l1_relative_max": 0.7009928922069376,
+      "voltage_rmse_v": null,
+      "voltage_mae_v": null,
+      "budget": {
+        "water_initial_mol_per_m2": 0.23256,
+        "water_final_mol_per_m2": 0.355079703658167,
+        "faraday_produced_mol_per_m2": 0.20431855222564932,
+        "boundary_water_net_mol_per_m2": -0.0815944973830828,
+        "water_budget_residual_mol_per_m2": -0.00020435118439951494,
+        "water_budget_residual_relative": -0.00039414041781675913,
+        "voltage_min_v": 0.8485386274930622,
+        "temperature_max_k": 253.15,
+        "finite_state": "True",
+        "status": "pore_blocked",
+        "charge_predictor_l1_relative_max": 0.7009928922069376
+      }
+    }
+  },
+  "numerical_checks_against_exp_a_base": {
+    "coarse_grid": {
+      "voltage_v": {
+        "max_abs": 0.0005199626331113816,
+        "max_relative_to_reference_peak": 0.0005332823260561574
+      },
+      "lambda_cathode_max": {
+        "max_abs": 0.021880390661677573,
+        "max_relative_to_reference_peak": 0.002830527932727965
+      },
+      "ice_cathode_max": {
+        "max_abs": 0.021269621610749745,
+        "max_relative_to_reference_peak": 0.028538769965823534
+      },
+      "liquid_cathode_max": {
+        "max_abs": 0.0008756295422957692,
+        "max_relative_to_reference_peak": 0.06871171345230023
+      }
+    },
+    "fine_grid": {
+      "voltage_v": {
+        "max_abs": 0.0002092804354327793,
+        "max_relative_to_reference_peak": 0.0002146414959432881
+      },
+      "lambda_cathode_max": {
+        "max_abs": 0.015632054339789647,
+        "max_relative_to_reference_peak": 0.002022220130291932
+      },
+      "ice_cathode_max": {
+        "max_abs": 0.008638073386204259,
+        "max_relative_to_reference_peak": 0.011590238596073265
+      },
+      "liquid_cathode_max": {
+        "max_abs": 0.0005767768758243481,
+        "max_relative_to_reference_peak": 0.04526038182043079
+      }
+    },
+    "tight_tolerance": {
+      "voltage_v": {
+        "max_abs": 8.468085275248338e-05,
+        "max_relative_to_reference_peak": 8.685009124221009e-05
+      },
+      "lambda_cathode_max": {
+        "max_abs": 0.0035612933058843943,
+        "max_relative_to_reference_peak": 0.0004607020201242619
+      },
+      "ice_cathode_max": {
+        "max_abs": 2.8129864086948045e-05,
+        "max_relative_to_reference_peak": 3.774358260993026e-05
+      },
+      "liquid_cathode_max": {
+        "max_abs": 5.8109542905512845e-05,
+        "max_relative_to_reference_peak": 0.0045599263936426885
+      }
+    },
+    "radau_solver": {
+      "voltage_v": {
+        "max_abs": 8.468073989398306e-05,
+        "max_relative_to_reference_peak": 8.684997549265476e-05
+      },
+      "lambda_cathode_max": {
+        "max_abs": 0.00356115221828901,
+        "max_relative_to_reference_peak": 0.0004606837685132248
+      },
+      "ice_cathode_max": {
+        "max_abs": 2.8135023279403132e-05,
+        "max_relative_to_reference_peak": 3.775050501830121e-05
+      },
+      "liquid_cathode_max": {
+        "max_abs": 5.8114934489379195e-05,
+        "max_relative_to_reference_peak": 0.004560349477775628
+      }
+    }
+  },
+  "pore_smoothing_sensitivity": {
+    "onset_0.90": {
+      "run_id": "20260929T090452Z_1a2cd647",
+      "end_time_s": 39.78328887389529
+    },
+    "onset_0.95": {
+      "run_id": "20260929T090410Z_5111df5e",
+      "end_time_s": 39.553840973992365
+    },
+    "onset_0.99": {
+      "run_id": "20260929T090531Z_b2ab3980",
+      "end_time_s": 39.427486739538686
+    }
+  },
+  "paper_shutdown_time_digitized_s": {
+    "dissolved": 62.0,
+    "vapor": 48.0,
+    "liquid": 40.0
+  },
+  "paper_shutdown_time_uncertainty_s": 0.7,
+  "notes": [
+    "所有运行均为文献参数与透明补充假设下的直接预测，未对图4拟合。",
+    "liquid工况以总液水与冰饱和度达到1的事件报告孔隙堵塞，不等同于电压阈值停机。",
+    "动态右端使用恒流反应分布预测器，保存时刻使用完整电势方程校正。"
+  ]
+}

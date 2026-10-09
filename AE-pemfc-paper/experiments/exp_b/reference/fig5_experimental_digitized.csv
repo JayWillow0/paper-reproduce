@@ -1,0 +1,14 @@
+time_s,voltage_v,time_uncertainty_s,voltage_uncertainty_v,source_kind,source_page
+0,0.590,0.5,0.015,digitized_experiment,784
+10,0.618,0.5,0.015,digitized_experiment,784
+20,0.640,0.5,0.015,digitized_experiment,784
+30,0.660,0.5,0.015,digitized_experiment,784
+40,0.670,0.5,0.015,digitized_experiment,784
+50,0.675,0.5,0.015,digitized_experiment,784
+60,0.660,0.5,0.015,digitized_experiment,784
+65,0.625,0.5,0.015,digitized_experiment,784
+70,0.550,0.5,0.015,digitized_experiment,784
+72,0.485,0.5,0.015,digitized_experiment,784
+74,0.390,0.5,0.015,digitized_experiment,784
+76,0.270,0.5,0.015,digitized_experiment,784
+78,0.150,0.5,0.020,digitized_experiment,784

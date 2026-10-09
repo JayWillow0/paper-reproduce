@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "model_protocol": "full_charge_geometric_v3_lambda2_c2",
+  "reference": "experiments/exp_b/runs/20261009T052528Z_b7540cdb",
+  "runs": {
+    "width_0p05_bdf": {
+      "run": "experiments/exp_b/runs/20261009T053201Z_5be27355",
+      "status": "completed",
+      "end_time_s": 90.0,
+      "elapsed_s": 35.556750416,
+      "comparison_to_width_0p10_bdf": {
+        "common_end_s": 90.0,
+        "signals": {
+          "voltage_v": {
+            "max_abs_difference": 6.386904004263005e-05,
+            "max_relative_to_reference_peak": 6.539259622728323e-05,
+            "final_difference": -1.7599977225613017e-06
+          },
+          "lambda_cathode_mean": {
+            "max_abs_difference": 0.0029512147887427176,
+            "max_relative_to_reference_peak": 0.0003977434359792892,
+            "final_difference": 0.00025687623267245385
+          },
+          "lambda_cathode_max": {
+            "max_abs_difference": 0.003296991296034335,
+            "max_relative_to_reference_peak": 0.00043091955567943436,
+            "final_difference": 0.00016005772319171996
+          },
+          "ice_cathode_mean": {
+            "max_abs_difference": 0.0003046502781947069,
+            "max_relative_to_reference_peak": 0.0006688930834274207,
+            "final_difference": 0.00030461079390159407
+          },
+          "ice_cathode_max": {
+            "max_abs_difference": 0.00044739387706860256,
+            "max_relative_to_reference_peak": 0.000627248888161342,
+            "final_difference": 0.0003768393328754671
+          },
+          "liquid_cathode_max": {
+            "max_abs_difference": 0.00011617209401944576,
+            "max_relative_to_reference_peak": 0.00992516648936451,
+            "final_difference": -1.1225518483370944e-06
+          }
+        }
+      }
+    },
+    "width_0p10_radau": {
+      "run": "experiments/exp_b/runs/20261009T053237Z_5b7e6317",
+      "status": "completed",
+      "end_time_s": 90.0,
+      "elapsed_s": 43.722895084,
+      "comparison_to_width_0p10_bdf": {
+        "common_end_s": 90.0,
+        "signals": {
+          "voltage_v": {
+            "max_abs_difference": 6.915146888442081e-08,
+            "max_relative_to_reference_peak": 7.080103412019686e-08,
+            "final_difference": 1.8701337367588167e-08
+          },
+          "lambda_cathode_mean": {
+            "max_abs_difference": 3.0624766384157454e-05,
+            "max_relative_to_reference_peak": 4.127385053151996e-06,
+            "final_difference": -1.8503414533910245e-06
+          },
+          "lambda_cathode_max": {
+            "max_abs_difference": 1.7741347261512885e-05,
+            "max_relative_to_reference_peak": 2.318809117961974e-06,
+            "final_difference": -1.5228453422722055e-06
+          },
+          "ice_cathode_mean": {
+            "max_abs_difference": 1.2547588118527742e-07,
+            "max_relative_to_reference_peak": 2.7549605258575184e-07,
+            "final_difference": -1.2547588118527742e-07
+          },
+          "ice_cathode_max": {
+            "max_abs_difference": 3.508906444571469e-07,
+            "max_relative_to_reference_peak": 4.919507795771936e-07,
+            "final_difference": -1.9855787303235672e-07
+          },
+          "liquid_cathode_max": {
+            "max_abs_difference": 1.6356693602294012e-07,
+            "max_relative_to_reference_peak": 1.3974346299647246e-05,
+            "final_difference": -4.5583429107709517e-08
+          }
+        }
+      }
+    },
+    "width_0p10_tight_bdf": {
+      "run": "experiments/exp_b/runs/20261009T053320Z_3469bf54",
+      "status": "completed",
+      "end_time_s": 90.0,
+      "elapsed_s": 45.87723224999999,
+      "comparison_to_width_0p10_bdf": {
+        "common_end_s": 90.0,
+        "signals": {
+          "voltage_v": {
+            "max_abs_difference": 6.82912080218756e-08,
+            "max_relative_to_reference_peak": 6.992025227038347e-08,
+            "final_difference": 1.3631265116664792e-08
+          },
+          "lambda_cathode_mean": {
+            "max_abs_difference": 2.6755105010600744e-05,
+            "max_relative_to_reference_peak": 3.6058600131360214e-06,
+            "final_difference": -1.4162354986524406e-06
+          },
+          "lambda_cathode_max": {
+            "max_abs_difference": 1.5967339181521822e-05,
+            "max_relative_to_reference_peak": 2.0869447589262155e-06,
+            "final_difference": -1.1662884977781118e-06
+          },
+          "ice_cathode_mean": {
+            "max_abs_difference": 1.3634073664156587e-07,
+            "max_relative_to_reference_peak": 2.9935103381280094e-07,
+            "final_difference": -5.4087732515029074e-08
+          },
+          "ice_cathode_max": {
+            "max_abs_difference": 3.7210038662804923e-07,
+            "max_relative_to_reference_peak": 5.216869647973754e-07,
+            "final_difference": -1.4653663960029206e-07
+          },
+          "liquid_cathode_max": {
+            "max_abs_difference": 1.4426525180737983e-07,
+            "max_relative_to_reference_peak": 1.2325306304444026e-05,
+            "final_difference": -3.662384064420654e-08
+          }
+        }
+      }
+    }
+  }
+}

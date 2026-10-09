@@ -1,0 +1,7 @@
+# Part3 实际验证过的直接依赖版本，Python 3.9.6。
+numpy==2.0.2
+scipy==1.13.1
+matplotlib==3.9.4
+pytest==8.4.2
+pypdf==6.19.0
+pypdfium2==5.13.0

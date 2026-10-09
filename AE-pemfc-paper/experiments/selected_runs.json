@@ -1,0 +1,19 @@
+{
+  "exp_a_isothermal": "experiments/exp_a/runs/20260929T085235Z_83141588",
+  "exp_a_coupled": "experiments/exp_a/runs/20260929T085309Z_12eac5f3",
+  "exp_a_coarse": "experiments/exp_a/runs/20260929T085351Z_33ca3400",
+  "exp_a_fine": "experiments/exp_a/runs/20260929T085402Z_316d98e4",
+  "exp_a_tight": "experiments/exp_a/runs/20260929T085608Z_f84dc27d",
+  "exp_a_radau": "experiments/exp_a/runs/20260929T085647Z_49659d57",
+  "exp_b_isothermal": "experiments/exp_b/runs/20260929T085822Z_9748a59b",
+  "exp_b_coupled": "experiments/exp_b/runs/20260929T085908Z_b07dcb7c",
+  "exp_c_kappa1": "experiments/exp_c/runs/20260929T090008Z_00574f97",
+  "exp_c_kappa2": "experiments/exp_c/runs/20260929T090046Z_87181456",
+  "exp_c_kappa3": "experiments/exp_c/runs/20260929T090123Z_e8a3ebc9",
+  "exp_c_equilibrium_coarse": "experiments/exp_c/runs/20260929T090157Z_6d11034a",
+  "exp_d_dissolved": "experiments/exp_d/runs/20260929T090258Z_28103ad8",
+  "exp_d_vapor": "experiments/exp_d/runs/20260929T090335Z_f85adeba",
+  "exp_d_liquid": "experiments/exp_d/runs/20260929T090410Z_5111df5e",
+  "exp_d_liquid_smooth_090": "experiments/exp_d/runs/20260929T090452Z_1a2cd647",
+  "exp_d_liquid_smooth_099": "experiments/exp_d/runs/20260929T090531Z_b2ab3980"
+}
